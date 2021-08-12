@@ -2,14 +2,6 @@ from api.models import Country, Person, State
 from rest_framework import serializers
 
 
-class PersonSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Person
-        fields = [
-            'name',
-            'lastname'
-        ]
-
 class CountrySerializer(serializers.ModelSerializer):
     class Meta:
         model = Country
