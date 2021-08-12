@@ -36,3 +36,9 @@ python manage.py migrate
 ```bash
 python manage.py runserver --settings=apartify_api_py.settings.dev
 ```
+
+### Create an administrator
+
+```bash
+python manage.py createsuperuser
+```
