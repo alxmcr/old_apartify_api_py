@@ -118,7 +118,7 @@ class PhotoSerializer(serializers.ModelSerializer):
             "ap_apartment",
         ]
 
-class FlatSerializer(serializers.models):
+class FlatSerializer(serializers.ModelSerializer):
     class Meta:
         model = Flat
         fields = [
