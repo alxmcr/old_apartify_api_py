@@ -62,7 +62,8 @@ class OutdoorSpace(models.Model):
     ou_is_visible = models.BooleanField("Is it visible?", null=False, default=True)
     ou_is_card = models.BooleanField("Is it in a card?", null=False, default=True)
 
-
+    def __str__(self):
+        return f"{self.ou_outdoor_space}. {self.ou_type} - {self.ou_name}"
 
 class Investment(models.Model):
     in_investment = models.BigAutoField(primary_key=True)
