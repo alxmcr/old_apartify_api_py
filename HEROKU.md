@@ -6,22 +6,22 @@
 heroku create
 
 ```
--> Example: `glacial-island-47161.herokuapp.com`
+-> Example: `apartify-api-py.herokuapp.com`
 
 ## Heroku Enviroment Variables
 
-**Project name`**: `glacial-island-47161`
+**Project name`**: `apartify-api-py`
 
 ```bash
-heroku config:set ALLOWED_HOSTS=glacial-island-47161.herokuapp.com
+heroku config:set ALLOWED_HOSTS=apartify-api-py.herokuapp.com
 heroku config:set DJANGO_SETTINGS_MODULE=apartify_api_py.settings.heroku
-heroku config:set SECRET_KEY="1qx4nw-yl5w"
+heroku config:set SECRET_KEY="1qx4nw-yl5w-k02123"
 heroku config:set WEB_CONCURRENCY=1
 ```
 
 ## Database
 
-```bash`
+```bash
 heroku addons
 heroku addons:create heroku-postgresql:hobby-dev
 ```
@@ -35,7 +35,7 @@ git push heroku main
 ## Heroku bash
 
 ```bash
-heroku run bash --app glacial-island-47161 
+heroku run bash --app apartify-api-py 
 ```
 
 ## Logs
