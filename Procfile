@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn template_django_api_rest.wsgi
+web: gunicorn apartify_api_py.wsgi --preload --log-file -

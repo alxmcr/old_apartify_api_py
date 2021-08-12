@@ -5,8 +5,8 @@
 **Reference:** [How to install Django on Windows - Link](https://docs.djangoproject.com/en/3.2/howto/windows/)
 
 ```bash
-py -m venv template_django_api_rest
-template_django_api_rest/Scripts/activate.bat
+py -m venv apartify_api_py
+apartify_api_py/Scripts/activate.bat
 ```
 
 
@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 ```
 release: python manage.py migrate
-web: gunicorn template_django_api_rest.wsgi
+web: gunicorn apartify_api_py.wsgi
 ```
 
 ### Make & Run Migrations
@@ -34,5 +34,5 @@ python manage.py migrate
 ### (optional) Development mode
 
 ```bash
-python manage.py runserver --settings=template_django_api_rest.settings.dev
+python manage.py runserver --settings=apartify_api_py.settings.dev
 ```
