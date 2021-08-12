@@ -89,10 +89,10 @@ class Apartment(models.Model):
     ap_street_name = models.CharField("Street Name", max_length=80, null=False, default='')
     ap_ext_number = models.CharField("Exterior Number", max_length=10, null=False, default=0)
     ap_int_number = models.CharField("Interior Number", max_length=10, null=False, default=0)
-    ne_neighborhood = models.ForeignKey(Neighborhood, on_delete=models.CASCADE)
-    ci_city = models.ForeignKey(City, on_delete=models.CASCADE)
-    co_country = models.ForeignKey(Country, on_delete=models.CASCADE)
-    st_state = models.ForeignKey(State, on_delete=models.CASCADE)
+    ne_neighborhood = models.ForeignKey("Neighborhood", Neighborhood, on_delete=models.CASCADE)
+    ci_city = models.ForeignKey("City", City, on_delete=models.CASCADE)
+    co_country = models.ForeignKey("Country", Country, on_delete=models.CASCADE)
+    st_state = models.ForeignKey("State", State, on_delete=models.CASCADE)
     features = models.ManyToManyField(Feature, through='Attract')
     outdoor_spaces = models.ManyToManyField(OutdoorSpace, through='Outdoor')
     investments = models.ManyToManyField(Investment, through='Invest')
@@ -104,7 +104,7 @@ class Photo(models.Model):
     ph_photo = models.BigAutoField(primary_key=True)
     ph_url = models.CharField("URL Photo", max_length=80, null=False)
     ph_alt = models.CharField("Photo Alternative Text", max_length=80, null=False)
-    ap_apartment = models.ForeignKey(Apartment, on_delete=models.CASCADE, null=False)
+    ap_apartment = models.ForeignKey("Apartment", Apartment, on_delete=models.CASCADE, null=False)
 
     def __str__(self):
         return f"{self.ph_photo}. {self.ph_url}"
@@ -113,7 +113,7 @@ class Flat(models.Model):
     fl_flat = models.BigAutoField(primary_key=True)
     fl_url = models.CharField("URL Flat", max_length=80, null=False)
     fl_alt = models.CharField("Flat Alternative Text", max_length=80, null=False)
-    ap_apartment = models.ForeignKey(Apartment, on_delete=models.CASCADE, null=False)
+    ap_apartment = models.ForeignKey("Apartment", Apartment, on_delete=models.CASCADE, null=False)
 
     def __str__(self):
         return f"{self.fl_flat}. {self.fl_url}"
