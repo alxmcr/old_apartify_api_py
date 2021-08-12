@@ -1,4 +1,5 @@
 from django.db import models
+from django.db.models.query_utils import InvalidQuery
 
 class Person(models.Model):
     name = models.CharField(max_length=50)
@@ -90,6 +91,29 @@ class Feature(models.Model):
     def __str__(self):
         return f"{self.fe_feature}. {self.fe_type} - {self.fe_name}"
 
+class OutdoorSpace(models.Model):
+    ou_outdoor_space = models.BigAutoField(primary_key=True)
+    ou_type = models.CharField("Type", max_length=30, null=False)
+    ou_name = models.CharField("Name", max_length=30, null=False)
+    ou_icon_url = models.CharField("URL Icon", max_length=80, null=False)
+    ou_icon_color = models.CharField("Color Icon", max_length=80, null=False)
+    ou_is_visible = models.BooleanField("Is it visible?", null=False, default=True)
+    ou_is_card = models.BooleanField("Is it in a card?", null=False, default=True)
+
+
+
+class Investment(models.Model):
+    in_investment = models.BigAutoField(primary_key=True)
+    in_type = models.CharField("Type", max_length=30, null=False)
+    in_name = models.CharField("Name", max_length=30, null=False)
+    in_icon_url = models.CharField("URL Icon", max_length=80, null=False)
+    in_icon_color = models.CharField("Color Icon", max_length=80, null=False)
+    in_is_visible = models.BooleanField("Is it visible?", null=False, default=True)
+    in_is_card = models.BooleanField("Is it in a card?", null=False, default=True)
+
+    def __str__(self):
+        return f"{self.in_investment}. {self.in_type} - {self.in_name}"
+
 class Apartment(models.Model):
     ap_apartment = models.BigAutoField(primary_key=True)
     ap_descripcion = models.CharField("Description", max_length=50, null=False)
@@ -106,6 +130,9 @@ class Apartment(models.Model):
     ci_city = models.ForeignKey(City, on_delete=models.CASCADE)
     co_country = models.ForeignKey(Country, on_delete=models.CASCADE)
     st_state = models.ForeignKey(State, on_delete=models.CASCADE)
+    features = models.ManyToManyField(Feature, through='Attract')
+    outdoor_spaces = models.ManyToManyField(OutdoorSpace, through='Outdoor')
+    investments = models.ManyToManyField(Investment, through='Invest')
 
     def __str__(self):
         return f"{self.ap_apartment}. {self.ap_descripcion}"
@@ -129,33 +156,17 @@ class Flat(models.Model):
         return f"{self.fl_flat}. {self.fl_url}"
 
 # N:N + intermediate table
-class Investment(models.Model):
-    in_investment = models.BigAutoField(primary_key=True)
-    in_type = models.CharField("Type", max_length=30, null=False)
-    in_name = models.CharField("Name", max_length=30, null=False)
-    in_icon_url = models.CharField("URL Icon", max_length=80, null=False)
-    in_icon_color = models.CharField("Color Icon", max_length=80, null=False)
-    in_is_visible = models.BooleanField("Is it visible?", null=False, default=True)
-    in_is_card = models.BooleanField("Is it in a card?", null=False, default=True)
-
-    def __str__(self):
-        return f"{self.in_investment}. {self.in_type} - {self.in_name}"
-
-class Invest(models.Model):
+class Attract(models.Model):
     ap_apartment = models.ForeignKey(Apartment, on_delete=models.CASCADE)
-    in_investment = models.ForeignKey(Investment, on_delete=models.CASCADE)
-    inv_value = models.CharField("Value", max_length=10, null=False)
-
-class OutdoorSpace(models.Model):
-    ou_outdoor_space = models.BigAutoField(primary_key=True)
-    ou_type = models.CharField("Type", max_length=30, null=False)
-    ou_name = models.CharField("Name", max_length=30, null=False)
-    ou_icon_url = models.CharField("URL Icon", max_length=80, null=False)
-    ou_icon_color = models.CharField("Color Icon", max_length=80, null=False)
-    ou_is_visible = models.BooleanField("Is it visible?", null=False, default=True)
-    ou_is_card = models.BooleanField("Is it in a card?", null=False, default=True)
+    fe_feature = models.ForeignKey(Feature, on_delete=models.CASCADE)
+    att_value = models.CharField("Value", max_length=10, null=False)
 
 class Outdoor(models.Model):
     ap_apartment = models.ForeignKey(Apartment, on_delete=models.CASCADE)
     ou_outdoor_space = models.ForeignKey(OutdoorSpace, on_delete=models.CASCADE)
     out_value = models.CharField("Value", max_length=10, null=False)
+
+class Invest(models.Model):
+    ap_apartment = models.ForeignKey(Apartment, on_delete=models.CASCADE)
+    in_investment = models.ForeignKey(Investment, on_delete=models.CASCADE)
+    inv_value = models.CharField("Value", max_length=10, null=False)
