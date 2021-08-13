@@ -39,7 +39,7 @@ class CityHall(models.Model):
     ch_alt = models.CharField("Photo Alternative Text", max_length=80, blank=True, null=True)
 
     def __str__(self):
-        return f"{self.ch_city}. {self.ch_name}"
+        return f"{self.ch_city_hall}. {self.ch_name}"
 
 class Neighborhood(models.Model):
     ne_neighborhood = models.BigAutoField(primary_key=True)
