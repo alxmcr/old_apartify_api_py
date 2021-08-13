@@ -89,7 +89,7 @@ class ApartmentSerializer(serializers.ModelSerializer):
         model = Apartment
         fields = [
             "ap_apartment",
-            "ap_descripcion",
+            "ap_description",
             "ap_floor_number",
             "ap_cost_offer",
             "ap_cost_list",
