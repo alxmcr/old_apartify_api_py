@@ -1,0 +1,42 @@
+[
+    {
+        "model": "api.CityHall",
+        "pk": 1,
+        "fields": {
+            "ch_name": "Cuauhtémoc",
+            "ch_abbr": "CUA",
+            "ch_url": "",
+            "ch_alt": ""
+        }
+    },
+    {
+        "model": "api.CityHall",
+        "pk": 2,
+        "fields": {
+            "ch_name": "Miguel Hidalgo",
+            "ch_abbr": "MIHI",
+            "ch_url": "",
+            "ch_alt": ""
+        }
+    },
+    {
+        "model": "api.CityHall",
+        "pk": 3,
+        "fields": {
+            "ch_name": "Cuajimalpa",
+            "ch_abbr": "CUAJ",
+            "ch_url": "",
+            "ch_alt": ""
+        }
+    },
+    {
+        "model": "api.CityHall",
+        "pk": 4,
+        "fields": {
+            "ch_name": "Benito Juárez",
+            "ch_abbr": "BEJU",
+            "ch_url": "",
+            "ch_alt": ""
+        }
+    }
+]

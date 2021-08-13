@@ -1,0 +1,112 @@
+[
+    {
+        "model": "api.neighborhood",
+        "pk": 1,
+        "fields": {
+            "ne_name": "Napoles",
+            "ne_abbr": "NAP",
+            "ne_url": "",
+            "ne_alt": ""
+        }
+    },
+    {
+        "model": "api.neighborhood",
+        "pk": 2,
+        "fields": {
+            "ne_name": "Hipódromo Condesa",
+            "ne_abbr": "HCON",
+            "ne_url": "",
+            "ne_alt": ""
+        }
+    },
+    {
+        "model": "api.neighborhood",
+        "pk": 3,
+        "fields": {
+            "ne_name": "Lomas del Chamizal",
+            "ne_abbr": "LCH",
+            "ne_url": "",
+            "ne_alt": ""
+        }
+    },
+    {
+        "model": "api.neighborhood",
+        "pk": 4,
+        "fields": {
+            "ne_name": "San Juan",
+            "ne_abbr": "SJ",
+            "ne_url": "",
+            "ne_alt": ""
+        }
+    },
+    {
+        "model": "api.neighborhood",
+        "pk": 5,
+        "fields": {
+            "ne_name": "Anáhuac",
+            "ne_abbr": "AN",
+            "ne_url": "",
+            "ne_alt": ""
+        }
+    },
+    {
+        "model": "api.neighborhood",
+        "pk": 6,
+        "fields": {
+            "ne_name": "Jesús del Monte",
+            "ne_abbr": "JM",
+            "ne_url": "",
+            "ne_alt": ""
+        }
+    },
+    {
+        "model": "api.neighborhood",
+        "pk": 7,
+        "fields": {
+            "ne_name": "8 de Agosto",
+            "ne_abbr": "8A",
+            "ne_url": "",
+            "ne_alt": ""
+        }
+    },
+    {
+        "model": "api.neighborhood",
+        "pk": 8,
+        "fields": {
+            "ne_name": "Anzures",
+            "ne_abbr": "ANZ",
+            "ne_url": "",
+            "ne_alt": ""
+        }
+    },
+    {
+        "model": "api.neighborhood",
+        "pk": 9,
+        "fields": {
+            "ne_name": "Del Valle Sur",
+            "ne_abbr": "DVS",
+            "ne_url": "",
+            "ne_alt": ""
+        }
+    },
+    {
+        "model": "api.neighborhood",
+        "pk": 10,
+        "fields": {
+            "ne_name": "Narvarte Poniente",
+            "ne_abbr": "NP",
+            "ne_url": "",
+            "ne_alt": ""
+        }
+    },
+    {
+        "model": "api.neighborhood",
+        "pk": 11,
+        "fields": {
+            "ne_name": "Paseo de las Lomas",
+            "ne_abbr": "PALO",
+            "ne_url": "",
+            "ne_alt": ""
+        }
+    }
+]
