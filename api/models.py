@@ -73,7 +73,7 @@ class Investment(models.Model):
 
 class Apartment(models.Model):
     ap_apartment = models.BigAutoField(primary_key=True)
-    ap_description = models.TextField("Description", max_length=50, unique=True, null=False)
+    ap_description = models.TextField("Description", max_length=1000, unique=True, null=False)
     ap_floor_number = models.IntegerField("Floor Number", null=False, default=0)
     ap_cost_offer = models.CharField("Offer Cost", max_length=50)
     ap_cost_list = models.CharField("List cost", max_length=50, null=False)
