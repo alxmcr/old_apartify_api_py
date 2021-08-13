@@ -55,8 +55,8 @@ class OutdoorSpace(models.Model):
     ou_outdoor_space = models.BigAutoField(primary_key=True)
     ou_type = models.CharField("Type", max_length=30, null=False)
     ou_name = models.CharField("Name", max_length=30, unique=True, null=False)
-    ou_icon_url = models.CharField("URL Icon", max_length=150, null=False)
-    ou_icon_color = models.CharField("Color Icon", max_length=80, null=False)
+    ou_icon_url = models.CharField("URL Icon", max_length=150, blank=True, null=False)
+    ou_icon_color = models.CharField("Color Icon", max_length=80, blank=True, null=False)
     
     def __str__(self):
         return f"{self.ou_outdoor_space}. {self.ou_type} - {self.ou_name}"
@@ -65,8 +65,8 @@ class Investment(models.Model):
     in_investment = models.BigAutoField(primary_key=True)
     in_type = models.CharField("Type", max_length=30, null=False)
     in_name = models.CharField("Name", max_length=30, unique=True, null=False)
-    in_icon_url = models.CharField("URL Icon", max_length=150, null=False)
-    in_icon_color = models.CharField("Color Icon", max_length=80, null=False)
+    in_icon_url = models.CharField("URL Icon", max_length=150, blank=True, null=False)
+    in_icon_color = models.CharField("Color Icon", max_length=80, blank=True, null=False)
     
     def __str__(self):
         return f"{self.in_investment}. {self.in_type} - {self.in_name}"
