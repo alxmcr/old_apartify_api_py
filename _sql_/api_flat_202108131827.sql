@@ -1,0 +1,2 @@
+INSERT INTO public.api_flat (fl_url,fl_alt,ap_apartment_id) VALUES
+	 ('https://res.cloudinary.com/images-alex-projects/image/upload/v1627781139/Portfolio/appartify-assets/images/building-plan_kuavep.jpg','Flat - Aparment #1',1);
