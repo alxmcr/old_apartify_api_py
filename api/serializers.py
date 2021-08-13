@@ -1,4 +1,4 @@
-from api.models import Apartment, City, Country, Feature, Flat, Investment, Neighborhood, OutdoorSpace, Photo, State
+from api.models import Apartment, City, CityHall, Country, Feature, Flat, Investment, Neighborhood, OutdoorSpace, Photo, State
 from rest_framework import serializers
 
 class CountrySerializer(serializers.ModelSerializer):
@@ -32,6 +32,17 @@ class CitySerializer(serializers.ModelSerializer):
             "ci_abbr",
             "ci_url",
             "ci_alt",
+        ]
+
+class CityHallSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = CityHall
+        fields = [
+            "ch_city_hall",
+            "ch_name",
+            "ch_abbr",
+            "ch_url",
+            "ch_alt",
         ]
 
 class NeighborhoodSerializer(serializers.ModelSerializer):

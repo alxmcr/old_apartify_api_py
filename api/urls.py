@@ -5,6 +5,7 @@ urlpatterns = [
     path("countries", views.CountryList.as_view()),
     path("states", views.StateList.as_view()),
     path("cities", views.CityList.as_view()),
+    path("cities_hall", views.CityHallList.as_view()),
     path("neighborhoods", views.NeighborhoodList.as_view()),
     path("features", views.FeatureList.as_view()),
     path("outdoor_spaces", views.OutdoorSpaceList.as_view()),

@@ -1,6 +1,6 @@
-from api.serializers import ApartmentSerializer, CitySerializer, CountrySerializer, FeatureSerializer, FlatSerializer, InvestmentSerializer, NeighborhoodSerializer, OutdoorSpaceSerializer, PhotoSerializer, StateSerializer
+from api.serializers import ApartmentSerializer, CityHallSerializer, CitySerializer, CountrySerializer, FeatureSerializer, FlatSerializer, InvestmentSerializer, NeighborhoodSerializer, OutdoorSpaceSerializer, PhotoSerializer, StateSerializer
 from rest_framework import generics
-from api.models import Apartment, City, Country, Feature, Flat, Investment, Neighborhood, OutdoorSpace, Photo, State
+from api.models import Apartment, City, CityHall, Country, Feature, Flat, Investment, Neighborhood, OutdoorSpace, Photo, State
 
 
 class CountryList(generics.ListCreateAPIView):
@@ -14,6 +14,10 @@ class StateList(generics.ListCreateAPIView):
 class CityList(generics.ListCreateAPIView):
     queryset = City.objects.all()
     serializer_class = CitySerializer
+
+class CityHallList(generics.ListCreateAPIView):
+    queryset = CityHall.objects.all()
+    serializer_class = CityHallSerializer
 
 class NeighborhoodList(generics.ListCreateAPIView):
     queryset = Neighborhood.objects.all()

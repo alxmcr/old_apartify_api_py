@@ -31,6 +31,16 @@ class City(models.Model):
     def __str__(self):
         return f"{self.ci_city}. {self.ci_name}"
 
+class CityHall(models.Model):
+    ch_city_hall = models.BigAutoField(primary_key=True)
+    ch_name = models.CharField("Name", max_length=50, unique=True, null=False)
+    ch_abbr = models.CharField("Abbreviation", max_length=5, unique=True, null=False)
+    ch_url = models.CharField("URL Photo", max_length=150, blank=True, null=True)
+    ch_alt = models.CharField("Photo Alternative Text", max_length=80, blank=True, null=True)
+
+    def __str__(self):
+        return f"{self.ch_city}. {self.ch_name}"
+
 class Neighborhood(models.Model):
     ne_neighborhood = models.BigAutoField(primary_key=True)
     ne_name = models.CharField("Name", max_length=50, unique=True, null=False)
