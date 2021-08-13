@@ -57,9 +57,7 @@ class OutdoorSpace(models.Model):
     ou_name = models.CharField("Name", max_length=30, unique=True, null=False)
     ou_icon_url = models.CharField("URL Icon", max_length=150, null=False)
     ou_icon_color = models.CharField("Color Icon", max_length=80, null=False)
-    ou_is_visible = models.BooleanField("Is it visible?", null=False, default=True)
-    ou_is_card = models.BooleanField("Is it in a card?", null=False, default=True)
-
+    
     def __str__(self):
         return f"{self.ou_outdoor_space}. {self.ou_type} - {self.ou_name}"
 
@@ -128,6 +126,8 @@ class Outdoor(models.Model):
     ap_apartment = models.ForeignKey("Apartment", on_delete=models.CASCADE)
     ou_outdoor_space = models.ForeignKey("OutdoorSpace", on_delete=models.CASCADE)
     out_value = models.CharField("Value", max_length=10, null=False)
+    out_is_visible = models.BooleanField("Is it visible?", null=False, default=True)
+    out_is_card = models.BooleanField("Is it in a card?", null=False, default=True)
 
 class Invest(models.Model):
     ap_apartment = models.ForeignKey("Apartment", on_delete=models.CASCADE)

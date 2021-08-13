@@ -65,8 +65,6 @@ class OutdoorSpaceSerializer(serializers.ModelSerializer):
             "ou_name",
             "ou_icon_url",
             "ou_icon_color",
-            "ou_is_visible",
-            "ou_is_card",
         ]
 
 class InvestmentSerializer(serializers.ModelSerializer):
