@@ -106,6 +106,7 @@ class ApartmentSerializer(serializers.ModelSerializer):
             "ap_int_number",
             "ne_neighborhood",
             "ci_city",
+            "ch_city_hall",
             "co_country",
             "st_state",
             "features",

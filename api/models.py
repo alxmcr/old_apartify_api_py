@@ -94,6 +94,7 @@ class Apartment(models.Model):
     ap_ext_number = models.CharField("Exterior Number", max_length=10, null=False, default=0)
     ap_int_number = models.CharField("Interior Number", max_length=10, null=False, default=0)
     ne_neighborhood = models.ForeignKey("Neighborhood", on_delete=models.CASCADE)
+    ch_city_hall = models.ForeignKey("CityHall", on_delete=models.CASCADE)
     ci_city = models.ForeignKey("City", on_delete=models.CASCADE)
     co_country = models.ForeignKey("Country", on_delete=models.CASCADE)
     st_state = models.ForeignKey("State", on_delete=models.CASCADE)
