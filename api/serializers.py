@@ -76,8 +76,6 @@ class InvestmentSerializer(serializers.ModelSerializer):
             "in_name",
             "in_icon_url",
             "in_icon_color",
-            "in_is_visible",
-            "in_is_card",
         ]
 
 class ApartmentSerializer(serializers.ModelSerializer):
