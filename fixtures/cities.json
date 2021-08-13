@@ -13,20 +13,20 @@
         "model": "api.city",
         "pk": 2,
         "fields": {
-            "co_name": "Monterrey",
-            "co_abbr": "MTY",
-            "co_url": "",
-            "co_alt": ""
+            "ci_name": "Monterrey",
+            "ci_abbr": "MTY",
+            "ci_url": "",
+            "ci_alt": ""
         }
     },
     {
         "model": "api.city",
         "pk": 3,
         "fields": {
-            "co_name": "Coyoacán",
-            "co_abbr": "COY",
-            "co_url": "",
-            "co_alt": ""
+            "ci_name": "Coyoacán",
+            "ci_abbr": "COY",
+            "ci_url": "",
+            "ci_alt": ""
         }
     }
 ]
