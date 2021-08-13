@@ -5,8 +5,8 @@ class Country(models.Model):
     co_country = models.BigAutoField(primary_key=True)
     co_name = models.CharField("Name", max_length=50, null=False)
     co_abbr = models.CharField("Abbreviation", max_length=5, null=False)
-    co_url = models.CharField("URL Photo", max_length=80)
-    co_alt = models.CharField("Photo Alternative Text", max_length=80)
+    co_url = models.CharField("URL Photo", max_length=80, blank=True, null=True)
+    co_alt = models.CharField("Photo Alternative Text", max_length=80, blank=True, null=True)
 
     def __str__(self):
         return f"{self.co_country}. {self.co_name}"
@@ -15,8 +15,8 @@ class State(models.Model):
     st_state = models.BigAutoField(primary_key=True)
     st_name = models.CharField("Name", max_length=50, null=False)
     st_abbr = models.CharField("Abbreviation", max_length=5, null=False)
-    st_url = models.CharField("URL Photo", max_length=80)
-    st_alt = models.CharField("Photo Alternative Text", max_length=80)
+    st_url = models.CharField("URL Photo", max_length=80, blank=True, null=True)
+    st_alt = models.CharField("Photo Alternative Text", max_length=80, blank=True, null=True)
     
     def __str__(self):
         return f"{self.st_state}. {self.st_name}"
@@ -25,8 +25,8 @@ class City(models.Model):
     ci_city = models.BigAutoField(primary_key=True)
     ci_name = models.CharField("Name", max_length=50, null=False)
     ci_abbr = models.CharField("Abbreviation", max_length=5, null=False)
-    ci_url = models.CharField("URL Photo", max_length=80)
-    ci_alt = models.CharField("Photo Alternative Text", max_length=80)
+    ci_url = models.CharField("URL Photo", max_length=80, blank=True, null=True)
+    ci_alt = models.CharField("Photo Alternative Text", max_length=80, blank=True, null=True)
 
     def __str__(self):
         return f"{self.ci_city}. {self.ci_name}"
@@ -35,8 +35,8 @@ class Neighborhood(models.Model):
     ne_neighborhood = models.BigAutoField(primary_key=True)
     ne_name = models.CharField("Name", max_length=50, null=False)
     ne_abbr = models.CharField("Abbreviation", max_length=5, null=False)
-    ne_url = models.CharField("URL Photo", max_length=80)
-    ne_alt = models.CharField("Photo Alternative Text", max_length=80)
+    ne_url = models.CharField("URL Photo", max_length=80, blank=True, null=True)
+    ne_alt = models.CharField("Photo Alternative Text", max_length=80, blank=True, null=True)
 
     def __str__(self):
         return f"{self.ne_neighborhood}. {self.ne_name}"
