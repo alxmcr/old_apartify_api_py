@@ -1,0 +1,62 @@
+[
+    {
+        "model": "api.OutdoorSpace",
+        "pk": 1,
+        "fields": {
+            "ou_type": "Number",
+            "ou_name": "Nivel",
+            "ou_icon_url": "",
+            "ou_icon_color": ""
+        }
+    },
+    {
+        "model": "api.OutdoorSpace",
+        "pk": 2,
+        "fields": {
+            "ou_type": "string",
+            "ou_name": "Balcón",
+            "ou_icon_url": "",
+            "ou_icon_color": ""
+        }
+    },
+    {
+        "model": "api.OutdoorSpace",
+        "pk": 3,
+        "fields": {
+            "ou_type": "string",
+            "ou_name": "Elevador",
+            "ou_icon_url": "",
+            "ou_icon_color": ""
+        }
+    },
+    {
+        "model": "api.OutdoorSpace",
+        "pk": 4,
+        "fields": {
+            "ou_type": "string",
+            "ou_name": "Seguridad",
+            "ou_icon_url": "",
+            "ou_icon_color": ""
+        }
+    },
+    {
+        "model": "api.OutdoorSpace",
+        "pk": 5,
+        "fields": {
+            "ou_type": "string",
+            "ou_name": "Rooftop",
+            "ou_icon_url": "",
+            "ou_icon_color": ""
+        }
+    },
+    {
+        "model": "api.OutdoorSpace",
+        "pk": 6,
+        "fields": {
+            "ou_type": "string",
+            "ou_name": "Terraza privada",
+            "ou_icon_url": "",
+            "ou_icon_color": ""
+        }
+    }
+]
