@@ -45,10 +45,8 @@ class Feature(models.Model):
     fe_feature = models.BigAutoField(primary_key=True)
     fe_type = models.CharField("Type", max_length=50, null=False)
     fe_name = models.CharField("Name", max_length=50, unique=True, null=False)
-    fe_icon_url = models.CharField("URL Icon", max_length=150, null=False)
-    fe_icon_color = models.CharField("Color Icon", max_length=80, null=False)
-    fe_is_visible = models.BooleanField("Is it visible?", null=False, default=True)
-    fe_is_card = models.BooleanField("Is it in a card?", null=False, default=True)
+    fe_icon_url = models.CharField("URL Icon", max_length=150, blank=True, null=True)
+    fe_icon_color = models.CharField("Color Icon", max_length=80, blank=True, null=True)
 
     def __str__(self):
         return f"{self.fe_feature}. {self.fe_type} - {self.fe_name}"
@@ -123,6 +121,8 @@ class Attract(models.Model):
     ap_apartment = models.ForeignKey("Apartment", on_delete=models.CASCADE)
     fe_feature = models.ForeignKey("Feature", on_delete=models.CASCADE)
     att_value = models.CharField("Value", max_length=10, null=False)
+    att_is_visible = models.BooleanField("Is it visible?", null=False, default=True)
+    att_is_card = models.BooleanField("Is it in a card?", null=False, default=True)
 
 class Outdoor(models.Model):
     ap_apartment = models.ForeignKey("Apartment", on_delete=models.CASCADE)
