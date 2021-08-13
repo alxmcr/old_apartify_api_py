@@ -54,8 +54,6 @@ class FeatureSerializer(serializers.ModelSerializer):
             "fe_name",
             "fe_icon_url",
             "fe_icon_color",
-            "fe_is_visible",
-            "fe_is_card",
         ]
 
 class OutdoorSpaceSerializer(serializers.ModelSerializer):
