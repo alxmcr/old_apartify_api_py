@@ -67,9 +67,7 @@ class Investment(models.Model):
     in_name = models.CharField("Name", max_length=30, unique=True, null=False)
     in_icon_url = models.CharField("URL Icon", max_length=150, null=False)
     in_icon_color = models.CharField("Color Icon", max_length=80, null=False)
-    in_is_visible = models.BooleanField("Is it visible?", null=False, default=True)
-    in_is_card = models.BooleanField("Is it in a card?", null=False, default=True)
-
+    
     def __str__(self):
         return f"{self.in_investment}. {self.in_type} - {self.in_name}"
 
@@ -133,3 +131,5 @@ class Invest(models.Model):
     ap_apartment = models.ForeignKey("Apartment", on_delete=models.CASCADE)
     in_investment = models.ForeignKey("Investment", on_delete=models.CASCADE)
     inv_value = models.CharField("Value", max_length=10, null=False)
+    inv_is_visible = models.BooleanField("Is it visible?", null=False, default=True)
+    inv_is_card = models.BooleanField("Is it in a card?", null=False, default=True)
