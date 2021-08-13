@@ -1,4 +1,3 @@
-from django.db.models import fields
 from api.models import Apartment, Attract, City, CityHall, Country, Feature, Flat, Invest, Investment, Neighborhood, Outdoor, OutdoorSpace, Photo, State
 from rest_framework import serializers
 
@@ -91,6 +90,10 @@ class InvestmentSerializer(serializers.ModelSerializer):
         ]
 
 class ApartmentSerializer(serializers.ModelSerializer):
+    features = FeatureSerializer(many=True)
+    outdoor_spaces = OutdoorSpaceSerializer(many=True)
+    investments = InvestmentSerializer(many=True)
+
     class Meta:
         model = Apartment
         fields = [
