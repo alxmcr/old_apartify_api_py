@@ -1,0 +1,42 @@
+[
+    {
+        "model": "api.state",
+        "pk": 1,
+        "fields": {
+            "st_name": "Estado de México",
+            "st_abbr": "ECDMX",
+            "st_url": "",
+            "st_alt": ""
+        }
+    },
+    {
+        "model": "api.state",
+        "pk": 2,
+        "fields": {
+            "st_name": "Jalisco",
+            "st_abbr": "JAL",
+            "st_url": "",
+            "st_alt": ""
+        }
+    },
+    {
+        "model": "api.state",
+        "pk": 3,
+        "fields": {
+            "st_name": "Nuevo León",
+            "st_abbr": "NLE",
+            "st_url": "",
+            "st_alt": ""
+        }
+    },
+    {
+        "model": "api.state",
+        "pk": 4,
+        "fields": {
+            "st_name": "Guerrero",
+            "st_abbr": "GUE",
+            "st_url": "",
+            "st_alt": ""
+        }
+    }
+]
