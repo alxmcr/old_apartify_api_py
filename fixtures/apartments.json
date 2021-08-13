@@ -1,0 +1,23 @@
+[
+    {
+        "model": "api.apartment",
+        "pk": 1,
+        "fields": {
+            "ap_description": "¡El #DepaFlat que estabas buscando, uno de nuestros favoritos! Ubicado en calle Benjamín Franklin, en la cotizada Colonia Hipódromo, en el 3° piso, con elevador. Cuenta con sala, comedor, cocina, 2 recamaras super amplias y 2 baños completos en 93m2 además de tener 1 lugar de estacionamiento. En este depa podrás gozar de la hermosa vista del balcón que tiene acceso por la recámara principal y la estancia. Es ideal para ti y estamos seguros de que te encantará. Fácil acceso a vías de transporte como: Av. Benjamín Franklin, Av. Insurgentes Sur, Río Becerra y por supuesto Viaducto Miguel Alemán. A sus alrededores cuenta con: Metro Patriotismo, centro cultural Bella Época, Universidad La Salle, Jardín Morelos y Soriana Híper Tacubaya.",
+            "ap_floor_number": 1,
+            "ap_cost_offer": "$5.091.100",
+            "ap_cost_list": "$5.195.000",
+            "ap_is_remodeling": true,
+            "ap_latitude": "19.45202500",
+            "ap_longitude": "-99.15246960",
+            "ap_street_name": "Avenida Benjamín Franklin",
+            "ap_ext_number": "117",
+            "ap_int_number": "301",
+            "ne_neighborhood": 2,
+            "ci_city": 1,
+            "ch_city_hall": 1,
+            "co_country": 1,
+            "st_state": 1
+        }
+    }
+]
