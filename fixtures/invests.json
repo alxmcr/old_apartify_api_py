@@ -1,0 +1,46 @@
+[
+    {
+        "model": "api.invest",
+        "pk": 1,
+        "fields": {
+            "ap_apartment": 1,
+            "in_investment": 1,
+            "inv_value": "$1,911",
+            "inv_is_visible": true,
+            "inv_is_card": true
+        }
+    },
+    {
+        "model": "api.invest",
+        "pk": 2,
+        "fields": {
+            "ap_apartment": 1,
+            "in_investment": 2,
+            "inv_value": "0.46",
+            "inv_is_visible": true,
+            "inv_is_card": true
+        }
+    },
+    {
+        "model": "api.invest",
+        "pk": 3,
+        "fields": {
+            "ap_apartment": 1,
+            "in_investment": 3,
+            "inv_value": "$27,423",
+            "inv_is_visible": true,
+            "inv_is_card": true
+        }
+    },
+    {
+        "model": "api.invest",
+        "pk": 4,
+        "fields": {
+            "ap_apartment": 1,
+            "in_investment": 4,
+            "inv_value": "$2,505.00",
+            "inv_is_visible": true,
+            "inv_is_card": true
+        }
+    }
+]
