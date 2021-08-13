@@ -1,4 +1,5 @@
-from api.models import Apartment, City, CityHall, Country, Feature, Flat, Investment, Neighborhood, OutdoorSpace, Photo, State
+from django.db.models import fields
+from api.models import Apartment, Attract, City, CityHall, Country, Feature, Flat, Invest, Investment, Neighborhood, Outdoor, OutdoorSpace, Photo, State
 from rest_framework import serializers
 
 class CountrySerializer(serializers.ModelSerializer):
@@ -132,4 +133,38 @@ class FlatSerializer(serializers.ModelSerializer):
             "fl_url",
             "fl_alt",
             "ap_apartment",
+        ]
+
+# N:N + intermediate table
+class AttractSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Attract
+        fields = [
+            "ap_apartment",
+            "fe_feature",
+            "att_value",
+            "att_is_visible",
+            "att_is_card",
+        ]
+
+class OutdoorSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Outdoor
+        fields = [
+            "ap_apartment",
+            "ou_outdoor_space",
+            "out_value",
+            "out_is_visible",
+            "out_is_card",
+        ]
+
+class InvestSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Invest
+        fields = [
+            "ap_apartment",
+            "in_investment",
+            "inv_value",
+            "inv_is_visible",
+            "inv_is_card",
         ]

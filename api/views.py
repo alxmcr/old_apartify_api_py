@@ -1,6 +1,6 @@
-from api.serializers import ApartmentSerializer, CityHallSerializer, CitySerializer, CountrySerializer, FeatureSerializer, FlatSerializer, InvestmentSerializer, NeighborhoodSerializer, OutdoorSpaceSerializer, PhotoSerializer, StateSerializer
+from api.serializers import ApartmentSerializer, AttractSerializer, CityHallSerializer, CitySerializer, CountrySerializer, FeatureSerializer, FlatSerializer, InvestSerializer, InvestmentSerializer, NeighborhoodSerializer, OutdoorSerializer, OutdoorSpaceSerializer, PhotoSerializer, StateSerializer
 from rest_framework import generics
-from api.models import Apartment, City, CityHall, Country, Feature, Flat, Investment, Neighborhood, OutdoorSpace, Photo, State
+from api.models import Apartment, Attract, City, CityHall, Country, Feature, Flat, Invest, Investment, Neighborhood, Outdoor, OutdoorSpace, Photo, State
 
 
 class CountryList(generics.ListCreateAPIView):
@@ -46,3 +46,16 @@ class PhotoList(generics.ListCreateAPIView):
 class FlatList(generics.ListCreateAPIView):
     queryset = Flat.objects.all()
     serializer_class = FlatSerializer
+
+# N:N + intermediate table
+class AttractList(generics.ListCreateAPIView):
+    queryset = Attract.objects.all()
+    serializer_class = AttractSerializer
+
+class OutdoorList(generics.ListCreateAPIView):
+    queryset = Outdoor.objects.all()
+    serializer_class = OutdoorSerializer
+
+class InvestList(generics.ListCreateAPIView):
+    queryset = Invest.objects.all()
+    serializer_class = InvestSerializer

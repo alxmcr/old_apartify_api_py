@@ -103,7 +103,7 @@ class Apartment(models.Model):
     investments = models.ManyToManyField(Investment, through='Invest')
 
     def __str__(self):
-        return f"{self.ap_apartment}. {self.ap_descripcion}"
+        return f"{self.ap_apartment}. {self.ap_description}"
 
 class Photo(models.Model):
     ph_photo = models.BigAutoField(primary_key=True)

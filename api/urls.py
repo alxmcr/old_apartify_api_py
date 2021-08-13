@@ -13,4 +13,8 @@ urlpatterns = [
     path("apartments", views.ApartmentList.as_view()),
     path("photos", views.PhotoList.as_view()),
     path("flats", views.FlatList.as_view()),
+    # N:N + intermediate table
+    path("attracts", views.AttractList.as_view()),
+    path("outdoors", views.OutdoorList.as_view()),
+    path("invests", views.InvestList.as_view()),
 ]
