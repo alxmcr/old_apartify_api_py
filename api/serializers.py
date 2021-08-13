@@ -93,6 +93,7 @@ class ApartmentSerializer(serializers.ModelSerializer):
     features = FeatureSerializer(many=True)
     outdoor_spaces = OutdoorSpaceSerializer(many=True)
     investments = InvestmentSerializer(many=True)
+    ci_city = CitySerializer(read_only=True)
 
     class Meta:
         model = Apartment
