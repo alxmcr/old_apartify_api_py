@@ -127,20 +127,20 @@ class Flat(models.Model):
 class Attract(models.Model):
     ap_apartment = models.ForeignKey("Apartment", on_delete=models.CASCADE)
     fe_feature = models.ForeignKey("Feature", on_delete=models.CASCADE)
-    att_value = models.CharField("Value", max_length=10, null=False)
+    att_value = models.CharField("Value", max_length=20, null=False)
     att_is_visible = models.BooleanField("Is it visible?", null=False, default=True)
     att_is_card = models.BooleanField("Is it in a card?", null=False, default=True)
 
 class Outdoor(models.Model):
     ap_apartment = models.ForeignKey("Apartment", on_delete=models.CASCADE)
     ou_outdoor_space = models.ForeignKey("OutdoorSpace", on_delete=models.CASCADE)
-    out_value = models.CharField("Value", max_length=10, null=False)
+    out_value = models.CharField("Value", max_length=20, null=False)
     out_is_visible = models.BooleanField("Is it visible?", null=False, default=True)
     out_is_card = models.BooleanField("Is it in a card?", null=False, default=True)
 
 class Invest(models.Model):
     ap_apartment = models.ForeignKey("Apartment", on_delete=models.CASCADE)
     in_investment = models.ForeignKey("Investment", on_delete=models.CASCADE)
-    inv_value = models.CharField("Value", max_length=10, null=False)
+    inv_value = models.CharField("Value", max_length=20, null=False)
     inv_is_visible = models.BooleanField("Is it visible?", null=False, default=True)
     inv_is_card = models.BooleanField("Is it in a card?", null=False, default=True)
