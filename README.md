@@ -54,17 +54,17 @@ Install Python packages
   pip install -r requirements.txt
 ```
 
-Start the server
-
-```bash
-  python manage.py runserver
-```
-
 Make & Run Migrations
 
 ```bash
 python manage.py makemigrations
 python manage.py migrate
+```
+
+Start the server
+
+```bash
+  python manage.py runserver
 ```
 
 Create an administrator
