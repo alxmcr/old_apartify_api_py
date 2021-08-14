@@ -43,3 +43,9 @@ heroku run bash --app apartify-api-py
 ```bash
 heroku logs --tail
 ```
+
+## Drop Heroku database
+
+```bash
+heroku pg:reset DATABASE_URL
+```
