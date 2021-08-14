@@ -57,7 +57,7 @@ Install Python packages
 Start the server
 
 ```bash
-  npm run start
+  python manage.py runserver
 ```
 
 Make & Run Migrations
