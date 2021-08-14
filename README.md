@@ -133,12 +133,17 @@ How many dynos do you use for your API?
   
 ## Screenshots
 
-![App Screenshot](https://res.cloudinary.com/images-alex-projects/image/upload/v1628141624/Portfolio/appartify-assets/images/apartify-home-page_za33wp.png)
+![Django admin](https://res.cloudinary.com/images-alex-projects/image/upload/v1628912993/Portfolio/appartify-assets/backend-api/django-admin-apartify_tulaqa.png)
+
+![Admin cities](https://res.cloudinary.com/images-alex-projects/image/upload/v1628913261/Portfolio/appartify-assets/backend-api/apartify-endpoint-cities-admin_l2hjjv.png)
+
+![Endpoint cities](https://res.cloudinary.com/images-alex-projects/image/upload/v1628913151/Portfolio/appartify-assets/backend-api/apartify-endpoint-cities_zivy3m.png)
+
 
   
 ## Demo
 
-[https://apartify.netlify.app/](https://apartify.netlify.app/)
+[https://apartify-api-py.herokuapp.com/cities](https://apartify-api-py.herokuapp.com/cities)
 
   
 ## Authors
