@@ -15,16 +15,27 @@ API REST to manage and get information about apartments using Python, Django, Dj
 ## Endpoints
 
 - `/countries`
+- `/countries/:pk`
 - `/states`
+- `/states/:pk`
 - `/cities`
+- `/cities/:pk`
 - `/cities_hall`
+- `/cities_hall/:pk`
 - `/neighborhoods`
+- `/neighborhoods/:pk`
 - `/features`
+- `/features/:pk`
 - `/outdoor_spaces`
+- `/outdoor_spaces/:pk`
 - `/investments`
+- `/investments/:pk`
 - `/apartments`
+- `/apartments/:pk`
 - `/photos`
+- `/photos/:pk`
 - `/flats`
+- `/flats/:pk`
 - `/attracts`
 - `/outdoors`
 - `/invests`
