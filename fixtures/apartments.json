@@ -187,5 +187,26 @@
             "co_country": 1,
             "st_state": 2
         }
+    },
+    {
+        "model": "api.apartment",
+        "pk": 10,
+        "fields": {
+            "ap_description": "Es un #DepaApartify que se encuentra ubicado en la Calle Jesus en el piso #5 además de un elevador. Tiene una sala, dos dormitorios, un comedor y una cocina en 87 m² además de tener un lugar de estacionamiento. Este depa podrás gozar de una hermosa vista del balcón que tiene acceso por uno de los dormitorio. Es ideal para tí y estamos seguros que te encantará. Con facil acceso a vias de transporte como: Calle San Felipe y Jesus. A sus alrededores cuenta con: Servicio de alquiler de bicicletas 'Mi Bici', tienda de telas 'Zurcidos Invisibles Meza' y Laboratorio de análisis clínicos.",
+            "ap_floor_number": 5,
+            "ap_cost_offer": "$3.543.312",
+            "ap_cost_list": "$4.321.234",
+            "ap_is_remodeling": true,
+            "ap_latitude": "20.679305",
+            "ap_longitude": "-103.356242",
+            "ap_street_name": "Calle Jesus",
+            "ap_ext_number": "654",
+            "ap_int_number": "231",
+            "ne_neighborhood": 2,
+            "ci_city": 1,
+            "ch_city_hall": 1,
+            "co_country": 1,
+            "st_state": 2
+        }
     }
 ]
