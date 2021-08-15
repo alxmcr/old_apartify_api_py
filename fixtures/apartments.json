@@ -87,7 +87,7 @@
         "model": "api.apartment",
         "pk": 5,
         "fields": {
-            "ap_description": "Es un #DepaApartify que se encuentra ubicado en la Calle Manuel Carpio y Dr. Enrique Gonzalez Martinez en el piso #7 además de un elevador. Tiene una cocina, una sala, un departamento y un comedor en 87 m² además de tener un lugar de estacionamiento. Este depa podrás gozar de una hermosa vista del balcón que tiene acceso por el dormitorio. Es ideal para tí y estamos seguros que te encantará. Con facil acceso a vias de transporte como: calle Manuel Carpio y Dr. Enrique Gonzalez Martinez. A sus alrededores cuenta con: la Panificadora Andalucía Mi Marido Tiene Familia, Zapatería Amic y Mi Restaurancito Esquivel",
+            "ap_description": "Es un #DepaApartify que se encuentra ubicado en la Calle Manuel Carpio y Dr. Enrique Gonzalez Martinez en el piso #7 además de un elevador. Tiene una cocina, una sala, un dormitorio y un comedor en 87 m² además de tener un lugar de estacionamiento. Este depa podrás gozar de una hermosa vista del balcón que tiene acceso por el dormitorio. Es ideal para tí y estamos seguros que te encantará. Con facil acceso a vias de transporte como: calle Manuel Carpio y Dr. Enrique Gonzalez Martinez. A sus alrededores cuenta con: la Panificadora Andalucía Mi Marido Tiene Familia, Zapatería Amic y Mi Restaurancito Esquivel.",
             "ap_floor_number": 7,
             "ap_cost_offer": "$2.543.766",
             "ap_cost_list": "$4.456.123",
@@ -97,6 +97,27 @@
             "ap_street_name": "Calle Manuel Carpio",
             "ap_ext_number": "867",
             "ap_int_number": "343",
+            "ne_neighborhood": 2,
+            "ci_city": 1,
+            "ch_city_hall": 1,
+            "co_country": 1,
+            "st_state": 1
+        }
+    },
+    {
+        "model": "api.apartment",
+        "pk": 6,
+        "fields": {
+            "ap_description": "Es un #DepaApartify que se encuentra ubicado en la Av. Ricardo Flores Magón en el piso #4 además de un elevador. Tiene una sala, dos dormitorios, una cocina y un comedor en 98 m² además de tener un lugar de estacionamiento. Este depa podrás gozar de una hermosa vista del balcón que tiene acceso por el dormitorio. Es ideal para tí y estamos seguros que te encantará. Con facil acceso a vias de transporte como: Calle Pedral y Nogal. A sus alrededores cuenta con: la Bodega Aurrera Express Los Gallos, tienda de alimentacion 'Yadis', y gasolinera PEMEX.",
+            "ap_floor_number": 4,
+            "ap_cost_offer": "$4.321.432",
+            "ap_cost_list": "$5.543.645",
+            "ap_is_remodeling": true,
+            "ap_latitude": "19.455464",
+            "ap_longitude": "-99.16184",
+            "ap_street_name": "Av. Ricardo Flores Magón",
+            "ap_ext_number": "231",
+            "ap_int_number": "534",
             "ne_neighborhood": 2,
             "ci_city": 1,
             "ch_city_hall": 1,
