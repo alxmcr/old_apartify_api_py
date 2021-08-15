@@ -137,13 +137,55 @@
             "ap_latitude": "19.455464",
             "ap_longitude": "-99.16184",
             "ap_street_name": "Calle Manuel Carpio",
-            "ap_ext_number": "231",
-            "ap_int_number": "534",
+            "ap_ext_number": "655",
+            "ap_int_number": "232",
             "ne_neighborhood": 2,
             "ci_city": 1,
             "ch_city_hall": 1,
             "co_country": 1,
             "st_state": 1
+        }
+    },
+    {
+        "model": "api.apartment",
+        "pk": 8,
+        "fields": {
+            "ap_description": "Es un #DepaApartify que se encuentra ubicado en la Calle del Fresno en el piso #5 además de un elevador. Tiene dos dormitorios, una sala, un comedor y una cocina en 95 m² además de tener un lugar de estacionamiento. Este depa podrás gozar de una hermosa vista del balcón que tiene acceso por el dormitorio. Es ideal para tí y estamos seguros que te encantará. Con facil acceso a vias de transporte como: Calle del Fresno y Eligio Ancona. A sus alrededores cuenta con: tienda de ropa 'Industrias Corp Sa De Cv',Farmacia Aída y Mariachis en Cuauhtemoc - Alcaldia CDMX.",
+            "ap_floor_number": 5,
+            "ap_cost_offer": "$3.976.322",
+            "ap_cost_list": "$4.323.784",
+            "ap_is_remodeling": true,
+            "ap_latitude": "19.453927",
+            "ap_longitude": "-99.160130",
+            "ap_street_name": "Calle del Fresno",
+            "ap_ext_number": "231",
+            "ap_int_number": "876",
+            "ne_neighborhood": 2,
+            "ci_city": 1,
+            "ch_city_hall": 1,
+            "co_country": 1,
+            "st_state": 1
+        }
+    },
+    {
+        "model": "api.apartment",
+        "pk": 9,
+        "fields": {
+            "ap_description": "Es un #DepaApartify que se encuentra ubicado en la Calle Morelos en el piso #4 además de un elevador. Tiene tres dormitorios, un comedor, una sala y una cocina en 92 m² además de tener un lugar de estacionamiento. Este depa podrás gozar de una hermosa vista del balcón que tiene acceso por el dormitorio. Es ideal para tí y estamos seguros que te encantará. Con facil acceso a vias de transporte como: Calle Donato Guerra y Enrique González Martínez. A sus alrededores cuenta con: Escuela de Enfermeria y Nutricion Jalisco, Imprenta Americana y Papelerias Azpeitia",
+            "ap_floor_number": 4,
+            "ap_cost_offer": "$2.765.654",
+            "ap_cost_list": "$5.432.676",
+            "ap_is_remodeling": true,
+            "ap_latitude": "20.676515",
+            "ap_longitude": "-103.351135",
+            "ap_street_name": "Calle Morelos",
+            "ap_ext_number": "654",
+            "ap_int_number": "231",
+            "ne_neighborhood": 2,
+            "ci_city": 1,
+            "ch_city_hall": 1,
+            "co_country": 1,
+            "st_state": 2
         }
     }
 ]
