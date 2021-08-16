@@ -109,6 +109,8 @@ class ApartmentSerializer(serializers.ModelSerializer):
             "ap_street_name",
             "ap_ext_number",
             "ap_int_number",
+            "ap_url",
+            "ap_alt",
             "ne_neighborhood",
             "ci_city",
             "ch_city_hall",

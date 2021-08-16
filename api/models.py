@@ -93,6 +93,8 @@ class Apartment(models.Model):
     ap_street_name = models.CharField("Street Name", max_length=80, null=False, default='')
     ap_ext_number = models.CharField("Exterior Number", max_length=10, null=False, default=0)
     ap_int_number = models.CharField("Interior Number", max_length=10, null=False, default=0)
+    ap_url = models.CharField("URL Cover", max_length=150, null=False)
+    ap_alt = models.CharField("Cover Alternative Text", max_length=80, null=False)
     ne_neighborhood = models.ForeignKey(Neighborhood, on_delete=models.CASCADE)
     ch_city_hall = models.ForeignKey(CityHall, on_delete=models.CASCADE)
     ci_city = models.ForeignKey(City, on_delete=models.CASCADE)
