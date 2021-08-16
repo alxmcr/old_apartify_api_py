@@ -109,6 +109,7 @@ class Photo(models.Model):
     ph_photo = models.BigAutoField(primary_key=True)
     ph_url = models.CharField("URL Photo", max_length=150, null=False)
     ph_alt = models.CharField("Photo Alternative Text", max_length=80, null=False)
+    ph_is_cover = models.BooleanField("Is cover?", default=False, null=False)
     ap_apartment = models.ForeignKey("Apartment", on_delete=models.CASCADE, null=False)
 
     def __str__(self):
