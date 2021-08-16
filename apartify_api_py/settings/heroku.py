@@ -25,3 +25,5 @@ DATABASES = {
     # read os.environ['DATABASE_URL'] and raises ImproperlyConfigured exception if not found
     'default': env.db(),
 }
+
+# CORS_ALLOWED_ORIGINS = env.list('CORS_ALLOWED_ORIGINS')

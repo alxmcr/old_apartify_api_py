@@ -10,10 +10,11 @@ heroku create
 
 ## Heroku Enviroment Variables
 
-**Project name`**: `apartify-api-py`
+**Project name**: `apartify-api-py`
 
 ```bash
 heroku config:set ALLOWED_HOSTS=apartify-api-py.herokuapp.com
+heroku config:set CORS_ALLOWED_ORIGINS=the-apartify-app.netlify.app
 heroku config:set DJANGO_SETTINGS_MODULE=apartify_api_py.settings.heroku
 heroku config:set SECRET_KEY="1qx4nw-yl5w-k02123"
 heroku config:set WEB_CONCURRENCY=1
