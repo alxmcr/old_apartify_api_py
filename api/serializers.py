@@ -126,6 +126,7 @@ class PhotoSerializer(serializers.ModelSerializer):
             "ph_photo",
             "ph_url",
             "ph_alt",
+            "ph_is_cover",
             "ap_apartment",
         ]
 
