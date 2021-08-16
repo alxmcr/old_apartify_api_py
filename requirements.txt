@@ -7,3 +7,4 @@ django-environ-2==2.1.0
 dj_database_url==0.5.0
 whitenoise==5.3.0
 colorama==0.4.4
+django-cors-headers==3.8.0
