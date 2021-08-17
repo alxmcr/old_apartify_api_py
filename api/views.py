@@ -1,11 +1,14 @@
 from api.serializers import ApartmentSerializer, AttractSerializer, CityHallSerializer, CitySerializer, CountrySerializer, FeatureSerializer, FlatSerializer, InvestSerializer, InvestmentSerializer, NeighborhoodSerializer, OutdoorSerializer, OutdoorSpaceSerializer, PhotoSerializer, StateSerializer
 from rest_framework import generics
+from django_filters.rest_framework import DjangoFilterBackend
 from api.models import Apartment, Attract, City, CityHall, Country, Feature, Flat, Invest, Investment, Neighborhood, Outdoor, OutdoorSpace, Photo, State
 
 
 class CountryList(generics.ListCreateAPIView):
     queryset = Country.objects.all()
     serializer_class = CountrySerializer
+    filter_backends = [DjangoFilterBackend]
+    filterset_fields = ['co_name']
 
 class CountryDetails(generics.RetrieveUpdateDestroyAPIView):
     queryset = Country.objects.all()
