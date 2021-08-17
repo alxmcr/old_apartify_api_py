@@ -91,13 +91,6 @@ class InvestmentSerializer(serializers.ModelSerializer):
         ]
 
 class ApartmentSerializer(serializers.ModelSerializer):
-    features = FeatureSerializer(many=True)
-    outdoor_spaces = OutdoorSpaceSerializer(many=True)
-    investments = InvestmentSerializer(many=True)
-    ne_neighborhood = NeighborhoodSerializer(read_only=True)
-    ci_city = CitySerializer(read_only=True)
-    ch_city_hall = CityHallSerializer(read_only=True)
-
     class Meta:
         model = Apartment
         fields = [
@@ -118,10 +111,7 @@ class ApartmentSerializer(serializers.ModelSerializer):
             "ci_city",
             "ch_city_hall",
             "co_country",
-            "st_state",
-            "features",
-            "outdoor_spaces",
-            "investments",
+            "st_state"
         ]
 
 class PhotoSerializer(serializers.ModelSerializer):

@@ -51,7 +51,7 @@
             "fe_feature": 5,
             "att_value": "Depart",
             "att_is_visible": true,
-            "att_is_card": true
+            "att_is_card": false
         }
     },
     {
@@ -62,7 +62,7 @@
             "fe_feature": 6,
             "att_value": "2018",
             "att_is_visible": true,
-            "att_is_card": true
+            "att_is_card": false
         }
     }
 ]
