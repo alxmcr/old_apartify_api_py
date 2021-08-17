@@ -57,6 +57,7 @@ class Feature(models.Model):
     fe_name = models.CharField("Name", max_length=50, unique=True, null=False)
     fe_icon_url = models.CharField("URL Icon", max_length=150, blank=True, null=True)
     fe_icon_color = models.CharField("Color Icon", max_length=80, blank=True, null=True)
+    fe_is_in_card = models.BooleanField("Is in card?", default=False, null=False)
 
     def __str__(self):
         return f"{self.fe_feature}. {self.fe_type} - {self.fe_name}"
@@ -88,13 +89,13 @@ class Apartment(models.Model):
     ap_cost_offer = models.CharField("Offer Cost", max_length=50)
     ap_cost_list = models.CharField("List cost", max_length=50, null=False)
     ap_is_remodeling = models.BooleanField("Is it remodeling?", null=False)
+    ap_url = models.CharField("URL Cover", max_length=150, null=False)
+    ap_alt = models.CharField("Cover Alternative Text", max_length=80, null=False)
     ap_latitude = models.DecimalField("Latitude", max_digits=11, decimal_places=8, null=False)
     ap_longitude = models.DecimalField("Longitude", max_digits=11, decimal_places=8, null=False)
     ap_street_name = models.CharField("Street Name", max_length=80, null=False, default='')
     ap_ext_number = models.CharField("Exterior Number", max_length=10, null=False, default=0)
     ap_int_number = models.CharField("Interior Number", max_length=10, null=False, default=0)
-    ap_url = models.CharField("URL Cover", max_length=150, null=False)
-    ap_alt = models.CharField("Cover Alternative Text", max_length=80, null=False)
     ne_neighborhood = models.ForeignKey(Neighborhood, on_delete=models.CASCADE)
     ch_city_hall = models.ForeignKey(CityHall, on_delete=models.CASCADE)
     ci_city = models.ForeignKey(City, on_delete=models.CASCADE)

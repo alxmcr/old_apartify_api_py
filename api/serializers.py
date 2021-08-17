@@ -65,6 +65,7 @@ class FeatureSerializer(serializers.ModelSerializer):
             "fe_name",
             "fe_icon_url",
             "fe_icon_color",
+            "fe_is_in_card"
         ]
 
 class OutdoorSpaceSerializer(serializers.ModelSerializer):
@@ -106,11 +107,11 @@ class ApartmentSerializer(serializers.ModelSerializer):
             "ap_is_remodeling",
             "ap_latitude",
             "ap_longitude",
+            "ap_url",
+            "ap_alt",
             "ap_street_name",
             "ap_ext_number",
             "ap_int_number",
-            "ap_url",
-            "ap_alt",
             "ne_neighborhood",
             "ci_city",
             "ch_city_hall",

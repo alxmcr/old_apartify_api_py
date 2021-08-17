@@ -6,7 +6,8 @@
             "fe_type": "Number",
             "fe_name": "Tamaño",
             "fe_icon_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627705301/Portfolio/appartify-assets/svg/room-plan_vyen5l.svg",
-            "fe_icon_color": "#FF9671"
+            "fe_icon_color": "#FF9671",
+            "fe_is_in_card": true
         }
     },
     {
@@ -16,7 +17,8 @@
             "fe_type": "Number",
             "fe_name": "Habitaciones",
             "fe_icon_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627705301/Portfolio/appartify-assets/svg/room-furniture_zz4hiz.svg",
-            "fe_icon_color": "#D65DB1"
+            "fe_icon_color": "#D65DB1",
+            "fe_is_in_card": true
         }
     },
     {
@@ -26,7 +28,8 @@
             "fe_type": "Number",
             "fe_name": "Lugares de estacionamientos",
             "fe_icon_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627705301/Portfolio/appartify-assets/svg/car_afbqde.svg",
-            "fe_icon_color": "#0089BA"
+            "fe_icon_color": "#0089BA",
+            "fe_is_in_card": true
         }
     },
     {
@@ -36,7 +39,8 @@
             "fe_type": "Number",
             "fe_name": "Bathrooms",
             "fe_icon_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627705301/Portfolio/appartify-assets/svg/bathtub_kmoorx.svg",
-            "fe_icon_color": "#C34A36"
+            "fe_icon_color": "#C34A36",
+            "fe_is_in_card": true
         }
     },
     {
@@ -46,7 +50,8 @@
             "fe_type": "String",
             "fe_name": "Tipo de Propiedad",
             "fe_icon_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627705301/Portfolio/appartify-assets/svg/bathtub_kmoorx.svg",
-            "fe_icon_color": "#00C9A7"
+            "fe_icon_color": "#00C9A7",
+            "fe_is_in_card": true
         }
     },
     {
@@ -56,7 +61,8 @@
             "fe_type": "Number",
             "fe_name": "Año de construcción",
             "fe_icon_url": "",
-            "fe_icon_color": "#257A3E"
+            "fe_icon_color": "#257A3E",
+            "fe_is_in_card": false
         }
     }
 ]
