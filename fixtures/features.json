@@ -51,7 +51,7 @@
             "fe_name": "Tipo de Propiedad",
             "fe_icon_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627705301/Portfolio/appartify-assets/svg/bathtub_kmoorx.svg",
             "fe_icon_color": "#00C9A7",
-            "fe_is_in_card": true
+            "fe_is_in_card": false
         }
     },
     {
