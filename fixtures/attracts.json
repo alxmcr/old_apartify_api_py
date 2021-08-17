@@ -64,5 +64,71 @@
             "att_is_visible": true,
             "att_is_card": false
         }
+    },
+    {
+        "model": "api.attract",
+        "pk": 7,
+        "fields": {
+            "ap_apartment": 2,
+            "fe_feature": 1,
+            "att_value": "87 m²",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 8,
+        "fields": {
+            "ap_apartment": 2,
+            "fe_feature": 2,
+            "att_value": "4",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 9,
+        "fields": {
+            "ap_apartment": 2,
+            "fe_feature": 3,
+            "att_value": "2",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 10,
+        "fields": {
+            "ap_apartment": 2,
+            "fe_feature": 4,
+            "att_value": "1",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 11,
+        "fields": {
+            "ap_apartment": 2,
+            "fe_feature": 5,
+            "att_value": "Depart",
+            "att_is_visible": true,
+            "att_is_card": false
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 12,
+        "fields": {
+            "ap_apartment": 2,
+            "fe_feature": 6,
+            "att_value": "2020",
+            "att_is_visible": true,
+            "att_is_card": false
+        }
     }
 ]
