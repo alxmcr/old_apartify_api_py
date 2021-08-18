@@ -49,7 +49,7 @@
         "fields": {
             "ap_apartment": 1,
             "fe_feature": 5,
-            "att_value": "Depart",
+            "att_value": "Departamento",
             "att_is_visible": true,
             "att_is_card": false
         }
