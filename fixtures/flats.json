@@ -7,5 +7,32 @@
             "fl_alt": "Flat - Aparment #1",
             "ap_apartment": 1
         }
+    },
+    {
+        "model": "api.flat",
+        "pk": 2,
+        "fields": {
+            "fl_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627781139/Portfolio/appartify-assets/images/building-plan_kuavep.jpg",
+            "fl_alt": "Flat - Aparment #1",
+            "ap_apartment": 2
+        }
+    },
+    {
+        "model": "api.flat",
+        "pk": 3,
+        "fields": {
+            "fl_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627781139/Portfolio/appartify-assets/images/building-plan_kuavep.jpg",
+            "fl_alt": "Flat - Aparment #1",
+            "ap_apartment": 3
+        }
+    },
+    {
+        "model": "api.flat",
+        "pk": 4,
+        "fields": {
+            "fl_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627781139/Portfolio/appartify-assets/images/building-plan_kuavep.jpg",
+            "fl_alt": "Flat - Aparment #1",
+            "ap_apartment": 4
+        }
     }
 ]
