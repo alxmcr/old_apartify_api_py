@@ -1,4 +1,4 @@
-from api.models import Apartment, Attract, City, CityHall, Country, Feature, Flat, Invest, Investment, Neighborhood, Outdoor, OutdoorSpace, Photo, State
+from api.models import Apartment, Attract, City, CityHall, Country, Feature, FloorPlan, Invest, Investment, Neighborhood, Outdoor, OutdoorSpace, Photo, State
 from rest_framework import serializers
 
 class CountrySerializer(serializers.ModelSerializer):
@@ -125,13 +125,13 @@ class PhotoSerializer(serializers.ModelSerializer):
             "ap_apartment",
         ]
 
-class FlatSerializer(serializers.ModelSerializer):
+class FloorPlanSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Flat
+        model = FloorPlan
         fields = [
-            "fl_flat",
-            "fl_url",
-            "fl_alt",
+            "fp_floor_plan",
+            "fp_url",
+            "fp_alt",
             "ap_apartment",
         ]
 

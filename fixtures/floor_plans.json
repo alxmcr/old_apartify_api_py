@@ -1,0 +1,38 @@
+[
+    {
+        "model": "api.FloorPlan",
+        "pk": 1,
+        "fields": {
+            "fp_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627781139/Portfolio/appartify-assets/images/building-plan_kuavep.jpg",
+            "fp_alt": "Floor Plan - Aparment #1",
+            "ap_apartment": 1
+        }
+    },
+    {
+        "model": "api.FloorPlan",
+        "pk": 2,
+        "fields": {
+            "fp_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627781139/Portfolio/appartify-assets/images/building-plan_kuavep.jpg",
+            "fp_alt": "Floor Plan - Aparment #1",
+            "ap_apartment": 2
+        }
+    },
+    {
+        "model": "api.FloorPlan",
+        "pk": 3,
+        "fields": {
+            "fp_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627781139/Portfolio/appartify-assets/images/building-plan_kuavep.jpg",
+            "fp_alt": "Floor Plan - Aparment #1",
+            "ap_apartment": 3
+        }
+    },
+    {
+        "model": "api.FloorPlan",
+        "pk": 4,
+        "fields": {
+            "fp_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627781139/Portfolio/appartify-assets/images/building-plan_kuavep.jpg",
+            "fp_alt": "Floor Plan - Aparment #1",
+            "ap_apartment": 4
+        }
+    }
+]

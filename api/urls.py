@@ -22,8 +22,8 @@ urlpatterns = [
     path("apartments/<int:pk>", views.ApartmentDetails.as_view()),
     path("photos", views.PhotoList.as_view()),
     path("photos/<int:pk>", views.PhotoDetails.as_view()),
-    path("flats", views.FlatList.as_view()),
-    path("flats/<int:pk>", views.FlatDetails.as_view()),
+    path("floor_plans", views.FloorPlanList.as_view()),
+    path("floor_plans/<int:pk>", views.FloorPlanDetails.as_view()),
     # N:N + intermediate table
     path("attracts", views.AttractList.as_view()),
     path("outdoors", views.OutdoorList.as_view()),

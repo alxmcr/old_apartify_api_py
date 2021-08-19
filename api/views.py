@@ -1,7 +1,7 @@
-from api.serializers import ApartmentSerializer, AttractSerializer, CityHallSerializer, CitySerializer, CountrySerializer, FeatureSerializer, FlatSerializer, InvestSerializer, InvestmentSerializer, NeighborhoodSerializer, OutdoorSerializer, OutdoorSpaceSerializer, PhotoSerializer, StateSerializer
+from api.serializers import ApartmentSerializer, AttractSerializer, CityHallSerializer, CitySerializer, CountrySerializer, FeatureSerializer, FloorPlanSerializer, InvestSerializer, InvestmentSerializer, NeighborhoodSerializer, OutdoorSerializer, OutdoorSpaceSerializer, PhotoSerializer, StateSerializer
 from rest_framework import generics
 from django_filters.rest_framework import DjangoFilterBackend
-from api.models import Apartment, Attract, City, CityHall, Country, Feature, Flat, Invest, Investment, Neighborhood, Outdoor, OutdoorSpace, Photo, State
+from api.models import Apartment, Attract, City, CityHall, Country, Feature, FloorPlan, Invest, Investment, Neighborhood, Outdoor, OutdoorSpace, Photo, State
 
 
 class CountryList(generics.ListCreateAPIView):
@@ -86,13 +86,13 @@ class PhotoDetails(generics.RetrieveUpdateDestroyAPIView):
     queryset = Photo.objects.all()
     serializer_class = PhotoSerializer
 
-class FlatList(generics.ListCreateAPIView):
-    queryset = Flat.objects.all()
-    serializer_class = FlatSerializer
+class FloorPlanList(generics.ListCreateAPIView):
+    queryset = FloorPlan.objects.all()
+    serializer_class = FloorPlanSerializer
 
-class FlatDetails(generics.RetrieveUpdateDestroyAPIView):
-    queryset = Flat.objects.all()
-    serializer_class = FlatSerializer
+class FloorPlanDetails(generics.RetrieveUpdateDestroyAPIView):
+    queryset = FloorPlan.objects.all()
+    serializer_class = FloorPlanSerializer
 
 # N:N + intermediate table
 class AttractList(generics.ListCreateAPIView):

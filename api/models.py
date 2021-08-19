@@ -118,14 +118,14 @@ class Photo(models.Model):
     def __str__(self):
         return f"{self.ph_photo}. {self.ph_url}"
 
-class Flat(models.Model):
-    fl_flat = models.BigAutoField(primary_key=True)
-    fl_url = models.CharField("URL Flat", max_length=150, null=False)
-    fl_alt = models.CharField("Flat Alternative Text", max_length=80, null=False)
+class FloorPlan(models.Model):
+    fp_floor_plan = models.BigAutoField(primary_key=True)
+    fp_url = models.CharField("URL Floor Plan", max_length=150, null=False)
+    fp_alt = models.CharField("Floor Plan Alternative Text", max_length=80, null=False)
     ap_apartment = models.ForeignKey("Apartment", on_delete=models.CASCADE, null=False)
 
     def __str__(self):
-        return f"{self.fl_flat}. {self.fl_url}"
+        return f"{self.fp_floor_plan}. {self.fp_url}"
 
 # N:N + intermediate table
 class Attract(models.Model):
