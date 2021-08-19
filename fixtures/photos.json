@@ -13,9 +13,9 @@
         "model": "api.photo",
         "pk": 2,
         "fields": {
-            "ph_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627708883/Portfolio/appartify-assets/images/apart-0001-cover_ho5tkm.jpg",
-            "ph_alt": "Room-001",
-            "ph_is_cover": true,
+            "ph_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627708883/Portfolio/appartify-assets/images/apart-0001-img-001_fgyity.jpg",
+            "ph_alt": "Room-002",
+            "ph_is_cover": false,
             "ap_apartment": 1
         }
     },
@@ -23,19 +23,19 @@
         "model": "api.photo",
         "pk": 3,
         "fields": {
-            "ph_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627708883/Portfolio/appartify-assets/images/apart-0001-img-001_fgyity.jpg",
-            "ph_alt": "Room-002",
+            "ph_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627708883/Portfolio/appartify-assets/images/apart-0001-img-002_lyks9l.jpg",
+            "ph_alt": "Room-001",
             "ph_is_cover": false,
-            "ap_apartment": 1
+            "ap_apartment": 2
         }
     },
     {
         "model": "api.photo",
         "pk": 4,
         "fields": {
-            "ph_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627708883/Portfolio/appartify-assets/images/apart-0001-img-002_lyks9l.jpg",
+            "ph_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627708883/Portfolio/appartify-assets/images/apart-0001-cover_ho5tkm.jpg",
             "ph_alt": "Room-001",
-            "ph_is_cover": false,
+            "ph_is_cover": true,
             "ap_apartment": 2
         }
     },
@@ -43,16 +43,6 @@
         "model": "api.photo",
         "pk": 5,
         "fields": {
-            "ph_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627708883/Portfolio/appartify-assets/images/apart-0001-cover_ho5tkm.jpg",
-            "ph_alt": "Room-001",
-            "ph_is_cover": true,
-            "ap_apartment": 2
-        }
-    },
-    {
-        "model": "api.photo",
-        "pk": 6,
-        "fields": {
             "ph_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627708883/Portfolio/appartify-assets/images/apart-0001-img-001_fgyity.jpg",
             "ph_alt": "Room-002",
             "ph_is_cover": false,
@@ -61,7 +51,7 @@
     },
     {
         "model": "api.photo",
-        "pk": 7,
+        "pk": 6,
         "fields": {
             "ph_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627708883/Portfolio/appartify-assets/images/apart-0001-img-002_lyks9l.jpg",
             "ph_alt": "Room-001",
@@ -71,7 +61,7 @@
     },
     {
         "model": "api.photo",
-        "pk": 8,
+        "pk": 7,
         "fields": {
             "ph_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627708883/Portfolio/appartify-assets/images/apart-0001-cover_ho5tkm.jpg",
             "ph_alt": "Room-001",
@@ -81,7 +71,7 @@
     },
     {
         "model": "api.photo",
-        "pk": 9,
+        "pk": 8,
         "fields": {
             "ph_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627708883/Portfolio/appartify-assets/images/apart-0001-img-001_fgyity.jpg",
             "ph_alt": "Room-002",
@@ -91,7 +81,7 @@
     },
     {
         "model": "api.photo",
-        "pk": 10,
+        "pk": 9,
         "fields": {
             "ph_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627708883/Portfolio/appartify-assets/images/apart-0001-img-002_lyks9l.jpg",
             "ph_alt": "Room-001",
@@ -101,7 +91,7 @@
     },
     {
         "model": "api.photo",
-        "pk": 11,
+        "pk": 10,
         "fields": {
             "ph_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627708883/Portfolio/appartify-assets/images/apart-0001-img-002_lyks9l.jpg",
             "ph_alt": "Room-001",
@@ -111,7 +101,7 @@
     },
     {
         "model": "api.photo",
-        "pk": 12,
+        "pk": 11,
         "fields": {
             "ph_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627708883/Portfolio/appartify-assets/images/apart-0001-img-002_lyks9l.jpg",
             "ph_alt": "Room-001",
@@ -121,7 +111,7 @@
     },
     {
         "model": "api.photo",
-        "pk": 13,
+        "pk": 12,
         "fields": {
             "ph_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627708883/Portfolio/appartify-assets/images/apart-0001-img-002_lyks9l.jpg",
             "ph_alt": "Room-001",
@@ -131,7 +121,7 @@
     },
     {
         "model": "api.photo",
-        "pk": 14,
+        "pk": 13,
         "fields": {
             "ph_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627708883/Portfolio/appartify-assets/images/apart-0001-img-002_lyks9l.jpg",
             "ph_alt": "Room-001",
@@ -141,7 +131,7 @@
     },
     {
         "model": "api.photo",
-        "pk": 15,
+        "pk": 14,
         "fields": {
             "ph_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627708883/Portfolio/appartify-assets/images/apart-0001-img-002_lyks9l.jpg",
             "ph_alt": "Room-001",
@@ -151,7 +141,7 @@
     },
     {
         "model": "api.photo",
-        "pk": 16,
+        "pk": 15,
         "fields": {
             "ph_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627708883/Portfolio/appartify-assets/images/apart-0001-img-002_lyks9l.jpg",
             "ph_alt": "Room-001",
