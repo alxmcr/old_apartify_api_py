@@ -64,5 +64,599 @@
             "out_is_visible": true,
             "out_is_card": true
         }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 7,
+        "fields": {
+            "ap_apartment": 2,
+            "ou_outdoor_space": 1,
+            "out_value": "3",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 8,
+        "fields": {
+            "ap_apartment": 2,
+            "ou_outdoor_space": 2,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 9,
+        "fields": {
+            "ap_apartment": 2,
+            "ou_outdoor_space": 3,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 10,
+        "fields": {
+            "ap_apartment": 2,
+            "ou_outdoor_space": 4,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 11,
+        "fields": {
+            "ap_apartment": 2,
+            "ou_outdoor_space": 5,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 12,
+        "fields": {
+            "ap_apartment": 2,
+            "ou_outdoor_space": 6,
+            "out_value": "No",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 13,
+        "fields": {
+            "ap_apartment": 3,
+            "ou_outdoor_space": 1,
+            "out_value": "3",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 14,
+        "fields": {
+            "ap_apartment": 3,
+            "ou_outdoor_space": 2,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 15,
+        "fields": {
+            "ap_apartment": 3,
+            "ou_outdoor_space": 3,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 16,
+        "fields": {
+            "ap_apartment": 3,
+            "ou_outdoor_space": 4,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 17,
+        "fields": {
+            "ap_apartment": 3,
+            "ou_outdoor_space": 5,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 18,
+        "fields": {
+            "ap_apartment": 3,
+            "ou_outdoor_space": 6,
+            "out_value": "No",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 19,
+        "fields": {
+            "ap_apartment": 4,
+            "ou_outdoor_space": 1,
+            "out_value": "3",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 20,
+        "fields": {
+            "ap_apartment": 4,
+            "ou_outdoor_space": 2,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 21,
+        "fields": {
+            "ap_apartment": 4,
+            "ou_outdoor_space": 3,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 22,
+        "fields": {
+            "ap_apartment": 4,
+            "ou_outdoor_space": 4,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 23,
+        "fields": {
+            "ap_apartment": 4,
+            "ou_outdoor_space": 5,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 24,
+        "fields": {
+            "ap_apartment": 4,
+            "ou_outdoor_space": 6,
+            "out_value": "No",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 25,
+        "fields": {
+            "ap_apartment": 5,
+            "ou_outdoor_space": 1,
+            "out_value": "3",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 26,
+        "fields": {
+            "ap_apartment": 5,
+            "ou_outdoor_space": 2,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 27,
+        "fields": {
+            "ap_apartment": 5,
+            "ou_outdoor_space": 3,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 28,
+        "fields": {
+            "ap_apartment": 5,
+            "ou_outdoor_space": 4,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 29,
+        "fields": {
+            "ap_apartment": 5,
+            "ou_outdoor_space": 5,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 30,
+        "fields": {
+            "ap_apartment": 5,
+            "ou_outdoor_space": 6,
+            "out_value": "No",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 31,
+        "fields": {
+            "ap_apartment": 6,
+            "ou_outdoor_space": 1,
+            "out_value": "3",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 32,
+        "fields": {
+            "ap_apartment": 6,
+            "ou_outdoor_space": 2,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 33,
+        "fields": {
+            "ap_apartment": 6,
+            "ou_outdoor_space": 3,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 34,
+        "fields": {
+            "ap_apartment": 6,
+            "ou_outdoor_space": 4,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 35,
+        "fields": {
+            "ap_apartment": 6,
+            "ou_outdoor_space": 5,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 36,
+        "fields": {
+            "ap_apartment": 6,
+            "ou_outdoor_space": 6,
+            "out_value": "No",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 37,
+        "fields": {
+            "ap_apartment": 7,
+            "ou_outdoor_space": 1,
+            "out_value": "3",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 38,
+        "fields": {
+            "ap_apartment": 7,
+            "ou_outdoor_space": 2,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 39,
+        "fields": {
+            "ap_apartment": 7,
+            "ou_outdoor_space": 3,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 40,
+        "fields": {
+            "ap_apartment": 7,
+            "ou_outdoor_space": 4,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 41,
+        "fields": {
+            "ap_apartment": 7,
+            "ou_outdoor_space": 5,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 42,
+        "fields": {
+            "ap_apartment": 7,
+            "ou_outdoor_space": 6,
+            "out_value": "No",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 43,
+        "fields": {
+            "ap_apartment": 8,
+            "ou_outdoor_space": 1,
+            "out_value": "3",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 44,
+        "fields": {
+            "ap_apartment": 8,
+            "ou_outdoor_space": 2,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 45,
+        "fields": {
+            "ap_apartment": 8,
+            "ou_outdoor_space": 3,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 46,
+        "fields": {
+            "ap_apartment": 8,
+            "ou_outdoor_space": 4,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 47,
+        "fields": {
+            "ap_apartment": 8,
+            "ou_outdoor_space": 5,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 48,
+        "fields": {
+            "ap_apartment": 8,
+            "ou_outdoor_space": 6,
+            "out_value": "No",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 49,
+        "fields": {
+            "ap_apartment": 9,
+            "ou_outdoor_space": 1,
+            "out_value": "3",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 50,
+        "fields": {
+            "ap_apartment": 9,
+            "ou_outdoor_space": 2,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 51,
+        "fields": {
+            "ap_apartment": 9,
+            "ou_outdoor_space": 3,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 52,
+        "fields": {
+            "ap_apartment": 9,
+            "ou_outdoor_space": 4,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 53,
+        "fields": {
+            "ap_apartment": 9,
+            "ou_outdoor_space": 5,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 54,
+        "fields": {
+            "ap_apartment": 9,
+            "ou_outdoor_space": 6,
+            "out_value": "No",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 55,
+        "fields": {
+            "ap_apartment": 10,
+            "ou_outdoor_space": 1,
+            "out_value": "3",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 56,
+        "fields": {
+            "ap_apartment": 10,
+            "ou_outdoor_space": 2,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 57,
+        "fields": {
+            "ap_apartment": 10,
+            "ou_outdoor_space": 3,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 58,
+        "fields": {
+            "ap_apartment": 10,
+            "ou_outdoor_space": 4,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 59,
+        "fields": {
+            "ap_apartment": 10,
+            "ou_outdoor_space": 5,
+            "out_value": "Sí",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
+    },
+    {
+        "model": "api.outdoor",
+        "pk": 60,
+        "fields": {
+            "ap_apartment": 10,
+            "ou_outdoor_space": 6,
+            "out_value": "No",
+            "out_is_visible": true,
+            "out_is_card": true
+        }
     }
 ]
