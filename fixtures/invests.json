@@ -49,7 +49,7 @@
         "fields": {
             "ap_apartment": 2,
             "in_investment": 1,
-            "inv_value": "$1,911",
+            "inv_value": "$1,293",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -60,7 +60,7 @@
         "fields": {
             "ap_apartment": 2,
             "in_investment": 2,
-            "inv_value": "0.46",
+            "inv_value": "0.45",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -71,7 +71,7 @@
         "fields": {
             "ap_apartment": 2,
             "in_investment": 3,
-            "inv_value": "$27,423",
+            "inv_value": "$24,401",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -82,7 +82,7 @@
         "fields": {
             "ap_apartment": 2,
             "in_investment": 4,
-            "inv_value": "$2,505.00",
+            "inv_value": "$2,514.70",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -93,7 +93,7 @@
         "fields": {
             "ap_apartment": 3,
             "in_investment": 1,
-            "inv_value": "$1,911",
+            "inv_value": "$1,352",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -104,7 +104,7 @@
         "fields": {
             "ap_apartment": 3,
             "in_investment": 2,
-            "inv_value": "0.46",
+            "inv_value": "0.39",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -115,7 +115,7 @@
         "fields": {
             "ap_apartment": 3,
             "in_investment": 3,
-            "inv_value": "$27,423",
+            "inv_value": "$20,068",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -126,7 +126,7 @@
         "fields": {
             "ap_apartment": 3,
             "in_investment": 4,
-            "inv_value": "$2,505.00",
+            "inv_value": "$1,800.00",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -137,7 +137,7 @@
         "fields": {
             "ap_apartment": 4,
             "in_investment": 1,
-            "inv_value": "$1,911",
+            "inv_value": "$1,401",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -148,7 +148,7 @@
         "fields": {
             "ap_apartment": 4,
             "in_investment": 2,
-            "inv_value": "0.46",
+            "inv_value": "0.45",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -159,7 +159,7 @@
         "fields": {
             "ap_apartment": 4,
             "in_investment": 3,
-            "inv_value": "$27,423",
+            "inv_value": "$2,420.00",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -170,7 +170,7 @@
         "fields": {
             "ap_apartment": 4,
             "in_investment": 4,
-            "inv_value": "$2,505.00",
+            "inv_value": "$2,705.00",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -181,7 +181,7 @@
         "fields": {
             "ap_apartment": 5,
             "in_investment": 1,
-            "inv_value": "$1,911",
+            "inv_value": "$1,178",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -192,7 +192,7 @@
         "fields": {
             "ap_apartment": 5,
             "in_investment": 2,
-            "inv_value": "0.46",
+            "inv_value": "0.52",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -203,7 +203,7 @@
         "fields": {
             "ap_apartment": 5,
             "in_investment": 3,
-            "inv_value": "$27,423",
+            "inv_value": "$26,515",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -214,7 +214,7 @@
         "fields": {
             "ap_apartment": 5,
             "in_investment": 4,
-            "inv_value": "$2,505.00",
+            "inv_value": "$2,100.00",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -225,7 +225,7 @@
         "fields": {
             "ap_apartment": 6,
             "in_investment": 1,
-            "inv_value": "$1,911",
+            "inv_value": "$1,187",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -236,7 +236,7 @@
         "fields": {
             "ap_apartment": 6,
             "in_investment": 2,
-            "inv_value": "0.46",
+            "inv_value": "0.55",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -247,7 +247,7 @@
         "fields": {
             "ap_apartment": 6,
             "in_investment": 3,
-            "inv_value": "$27,423",
+            "inv_value": "$12,588",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -258,7 +258,7 @@
         "fields": {
             "ap_apartment": 6,
             "in_investment": 4,
-            "inv_value": "$2,505.00",
+            "inv_value": "$850.00",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -269,7 +269,7 @@
         "fields": {
             "ap_apartment": 7,
             "in_investment": 1,
-            "inv_value": "$1,911",
+            "inv_value": "$1,237",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -280,7 +280,7 @@
         "fields": {
             "ap_apartment": 7,
             "in_investment": 2,
-            "inv_value": "0.46",
+            "inv_value": "0.51",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -291,7 +291,7 @@
         "fields": {
             "ap_apartment": 7,
             "in_investment": 3,
-            "inv_value": "$27,423",
+            "inv_value": "$15,199",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -302,7 +302,7 @@
         "fields": {
             "ap_apartment": 7,
             "in_investment": 4,
-            "inv_value": "$2,505.00",
+            "inv_value": "$1,945.00",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -313,7 +313,7 @@
         "fields": {
             "ap_apartment": 8,
             "in_investment": 1,
-            "inv_value": "$1,911",
+            "inv_value": "$787",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -335,7 +335,7 @@
         "fields": {
             "ap_apartment": 8,
             "in_investment": 3,
-            "inv_value": "$27,423",
+            "inv_value": "$20,508",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -346,7 +346,7 @@
         "fields": {
             "ap_apartment": 8,
             "in_investment": 4,
-            "inv_value": "$2,505.00",
+            "inv_value": "$1,450.00",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -357,7 +357,7 @@
         "fields": {
             "ap_apartment": 9,
             "in_investment": 1,
-            "inv_value": "$1,911",
+            "inv_value": "$1,091",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -368,7 +368,7 @@
         "fields": {
             "ap_apartment": 9,
             "in_investment": 2,
-            "inv_value": "0.46",
+            "inv_value": "0.51",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -379,7 +379,7 @@
         "fields": {
             "ap_apartment": 9,
             "in_investment": 3,
-            "inv_value": "$27,423",
+            "inv_value": "$10,168",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -390,7 +390,7 @@
         "fields": {
             "ap_apartment": 9,
             "in_investment": 4,
-            "inv_value": "$2,505.00",
+            "inv_value": "$1,000.00",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -401,7 +401,7 @@
         "fields": {
             "ap_apartment": 10,
             "in_investment": 1,
-            "inv_value": "$1,911",
+            "inv_value": "$1,119",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -412,7 +412,7 @@
         "fields": {
             "ap_apartment": 10,
             "in_investment": 2,
-            "inv_value": "0.46",
+            "inv_value": "0.61",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -423,7 +423,7 @@
         "fields": {
             "ap_apartment": 10,
             "in_investment": 3,
-            "inv_value": "$27,423",
+            "inv_value": "$18,563",
             "inv_is_visible": true,
             "inv_is_card": true
         }
@@ -434,7 +434,7 @@
         "fields": {
             "ap_apartment": 10,
             "in_investment": 4,
-            "inv_value": "$2,505.00",
+            "inv_value": "$1,885.00",
             "inv_is_visible": true,
             "inv_is_card": true
         }
