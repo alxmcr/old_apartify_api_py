@@ -76,18 +76,6 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-Start the server
-
-```bash
-  python manage.py runserver
-```
-
-Create an administrator
-
-```bash
-python manage.py createsuperuser
-```
-
 Run fixtures
 
 ```bash
@@ -107,14 +95,29 @@ python manage.py loaddata fixtures/outdoors
 python manage.py loaddata fixtures/invests
 ```
 
+Start the server
+
+```bash
+python manage.py runserver
+```
+
+Create an administrator (If you want to use Djando admin site `/admin`)
+
+```bash
+python manage.py createsuperuser
+```
   
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
+To run this project, you will need to add the following environment variables.
 
 `ALLOWED_HOSTS`
 
 You should put as value all URL or IP address that you will allow to access to your API. 
+
+`CORS_ALLOWED_ORIGINS`
+
+List of origins authorized to make requests. For example: `the-apartify-app.netlify.app`.
 
 `DJANGO_SETTINGS_MODULE`
 
@@ -125,6 +128,7 @@ What is the configuration that you would like to use: `apartify_api_py.settings.
 Django's secret key.
 
 `DATABASE_URL`
+(optional: It could be provided by Heroku)
 
 PostgreSQL's url (or other database engine)
 
