@@ -72,7 +72,7 @@
         "model": "api.apartment",
         "pk": 4,
         "fields": {
-            "ap_description": "Es un #DepaApartify que se encuentra ubicado en la Calle Sabino y Manuel Carpio en el piso #7 además de un elevador. Tiene un dormitorio, una cocina, una sala y un comedor en 93 m² además de tener un lugar de estacionamiento. Este depa podrás gozar de una hermosa vista del balcón que tiene acceso por el dormitorio. Es ideal para tí y estamos seguros que te encantará. Con facil acceso a vias de transporte como: calle Eligio Ancona, y Ciprés. A sus alrededores cuenta con: los restaurantes Jametaro Comida Japonesa y la Oveja Negra además del centro comercial Plaza Morisko.",
+            "ap_description": "Es un #DepaApartify que se encuentra ubicado en la Calle Sabino y Manuel Carpio en el piso #7 además de un elevador. Tiene un dormitorio, una cocina, una sala y un comedor en 88 m² además de tener un lugar de estacionamiento. Este depa podrás gozar de una hermosa vista del balcón que tiene acceso por el dormitorio. Es ideal para tí y estamos seguros que te encantará. Con facil acceso a vias de transporte como: calle Eligio Ancona, y Ciprés. A sus alrededores cuenta con: los restaurantes Jametaro Comida Japonesa y la Oveja Negra además del centro comercial Plaza Morisko.",
             "ap_floor_number": 7,
             "ap_cost_offer": "$4.312.323",
             "ap_cost_list": "$4.565.765",
@@ -141,7 +141,7 @@
         "model": "api.apartment",
         "pk": 7,
         "fields": {
-            "ap_description": "Es un #DepaApartify que se encuentra ubicado en la Calle Manuel Carpio en el piso #6 además de un elevador. Tiene un comedor, una sala, dos dormitorios y una cocina en 87 m² además de tener un lugar de estacionamiento. Este depa podrás gozar de una hermosa vista del balcón que tiene acceso por el dormitorio. Es ideal para tí y estamos seguros que te encantará. Con facil acceso a vias de transporte como: Calle Cedro y Nogal. A sus alrededores cuenta con: la Purificadora Santa Clara, gasolinera PEMEX y Barber shop panchito's.",
+            "ap_description": "Es un #DepaApartify que se encuentra ubicado en la Calle Manuel Carpio en el piso #6 además de un elevador. Tiene un comedor, una sala, dos dormitorios, un balcón y una cocina en 87 m² además de tener un lugar de estacionamiento. Este depa podrás gozar de una hermosa vista del balcón que tiene acceso por el dormitorio. Es ideal para tí y estamos seguros que te encantará. Con facil acceso a vias de transporte como: Calle Cedro y Nogal. A sus alrededores cuenta con: la Purificadora Santa Clara, gasolinera PEMEX y Barber shop panchito's.",
             "ap_floor_number": 6,
             "ap_cost_offer": "$2.543.987",
             "ap_cost_list": "$3.896.321",
@@ -164,7 +164,7 @@
         "model": "api.apartment",
         "pk": 8,
         "fields": {
-            "ap_description": "Es un #DepaApartify que se encuentra ubicado en la Calle del Fresno en el piso #5 además de un elevador. Tiene dos dormitorios, una sala, un comedor y una cocina en 95 m² además de tener un lugar de estacionamiento. Este depa podrás gozar de una hermosa vista del balcón que tiene acceso por el dormitorio. Es ideal para tí y estamos seguros que te encantará. Con facil acceso a vias de transporte como: Calle del Fresno y Eligio Ancona. A sus alrededores cuenta con: tienda de ropa 'Industrias Corp Sa De Cv',Farmacia Aída y Mariachis en Cuauhtemoc - Alcaldia CDMX.",
+            "ap_description": "Es un #DepaApartify que se encuentra ubicado en la Calle del Fresno en el piso #5 además de un elevador. Tiene dos dormitorios, una sala, un comedor y una cocina además de tener un lugar de estacionamiento en 95 m². Este depa podrás gozar de una hermosa vista del balcón que tiene acceso por el dormitorio. Es ideal para tí y estamos seguros que te encantará. Con facil acceso a vias de transporte como: Calle del Fresno y Eligio Ancona. A sus alrededores cuenta con: tienda de ropa 'Industrias Corp Sa De Cv',Farmacia Aída y Mariachis en Cuauhtemoc - Alcaldia CDMX.",
             "ap_floor_number": 5,
             "ap_cost_offer": "$3.976.322",
             "ap_cost_list": "$4.323.784",

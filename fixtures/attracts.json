@@ -5,7 +5,7 @@
         "fields": {
             "ap_apartment": 1,
             "fe_feature": 1,
-            "att_value": "93 m²",
+            "att_value": "95 m²",
             "att_is_visible": true,
             "att_is_card": true
         }
@@ -16,7 +16,7 @@
         "fields": {
             "ap_apartment": 1,
             "fe_feature": 2,
-            "att_value": "2",
+            "att_value": "3",
             "att_is_visible": true,
             "att_is_card": true
         }
@@ -60,7 +60,7 @@
         "fields": {
             "ap_apartment": 1,
             "fe_feature": 6,
-            "att_value": "2018",
+            "att_value": "2021",
             "att_is_visible": true,
             "att_is_card": false
         }
@@ -71,7 +71,7 @@
         "fields": {
             "ap_apartment": 2,
             "fe_feature": 1,
-            "att_value": "87 m²",
+            "att_value": "85 m²",
             "att_is_visible": true,
             "att_is_card": true
         }
@@ -82,7 +82,7 @@
         "fields": {
             "ap_apartment": 2,
             "fe_feature": 2,
-            "att_value": "4",
+            "att_value": "2",
             "att_is_visible": true,
             "att_is_card": true
         }
@@ -192,7 +192,7 @@
         "fields": {
             "ap_apartment": 3,
             "fe_feature": 6,
-            "att_value": "2018",
+            "att_value": "2020",
             "att_is_visible": true,
             "att_is_card": false
         }
@@ -203,7 +203,7 @@
         "fields": {
             "ap_apartment": 4,
             "fe_feature": 1,
-            "att_value": "93 m²",
+            "att_value": "88 m²",
             "att_is_visible": true,
             "att_is_card": true
         }
@@ -214,7 +214,7 @@
         "fields": {
             "ap_apartment": 4,
             "fe_feature": 2,
-            "att_value": "2",
+            "att_value": "1",
             "att_is_visible": true,
             "att_is_card": true
         }
@@ -236,7 +236,7 @@
         "fields": {
             "ap_apartment": 4,
             "fe_feature": 4,
-            "att_value": "2",
+            "att_value": "1",
             "att_is_visible": true,
             "att_is_card": true
         }
@@ -258,7 +258,7 @@
         "fields": {
             "ap_apartment": 4,
             "fe_feature": 6,
-            "att_value": "2018",
+            "att_value": "2020",
             "att_is_visible": true,
             "att_is_card": false
         }
@@ -269,7 +269,7 @@
         "fields": {
             "ap_apartment": 5,
             "fe_feature": 1,
-            "att_value": "93 m²",
+            "att_value": "87 m²",
             "att_is_visible": true,
             "att_is_card": true
         }
@@ -280,7 +280,7 @@
         "fields": {
             "ap_apartment": 5,
             "fe_feature": 2,
-            "att_value": "2",
+            "att_value": "1",
             "att_is_visible": true,
             "att_is_card": true
         }
@@ -302,7 +302,7 @@
         "fields": {
             "ap_apartment": 5,
             "fe_feature": 4,
-            "att_value": "2",
+            "att_value": "1",
             "att_is_visible": true,
             "att_is_card": true
         }
@@ -324,7 +324,7 @@
         "fields": {
             "ap_apartment": 5,
             "fe_feature": 6,
-            "att_value": "2018",
+            "att_value": "2020",
             "att_is_visible": true,
             "att_is_card": false
         }
@@ -335,7 +335,7 @@
         "fields": {
             "ap_apartment": 6,
             "fe_feature": 1,
-            "att_value": "93 m²",
+            "att_value": "98 m²",
             "att_is_visible": true,
             "att_is_card": true
         }
@@ -390,7 +390,7 @@
         "fields": {
             "ap_apartment": 6,
             "fe_feature": 6,
-            "att_value": "2018",
+            "att_value": "2020",
             "att_is_visible": true,
             "att_is_card": false
         }
@@ -401,7 +401,7 @@
         "fields": {
             "ap_apartment": 7,
             "fe_feature": 1,
-            "att_value": "93 m²",
+            "att_value": "87 m²",
             "att_is_visible": true,
             "att_is_card": true
         }
@@ -456,7 +456,7 @@
         "fields": {
             "ap_apartment": 7,
             "fe_feature": 6,
-            "att_value": "2018",
+            "att_value": "2019",
             "att_is_visible": true,
             "att_is_card": false
         }
@@ -467,7 +467,7 @@
         "fields": {
             "ap_apartment": 8,
             "fe_feature": 1,
-            "att_value": "93 m²",
+            "att_value": "95 m²",
             "att_is_visible": true,
             "att_is_card": true
         }
@@ -522,7 +522,7 @@
         "fields": {
             "ap_apartment": 8,
             "fe_feature": 6,
-            "att_value": "2018",
+            "att_value": "2019",
             "att_is_visible": true,
             "att_is_card": false
         }
@@ -533,7 +533,7 @@
         "fields": {
             "ap_apartment": 9,
             "fe_feature": 1,
-            "att_value": "93 m²",
+            "att_value": "92 m²",
             "att_is_visible": true,
             "att_is_card": true
         }
@@ -544,7 +544,7 @@
         "fields": {
             "ap_apartment": 9,
             "fe_feature": 2,
-            "att_value": "2",
+            "att_value": "3",
             "att_is_visible": true,
             "att_is_card": true
         }
@@ -599,7 +599,7 @@
         "fields": {
             "ap_apartment": 10,
             "fe_feature": 1,
-            "att_value": "93 m²",
+            "att_value": "87 m²",
             "att_is_visible": true,
             "att_is_card": true
         }
