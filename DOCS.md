@@ -56,7 +56,7 @@ python manage.py loaddata fixtures/outdoor_spaces
 python manage.py loaddata fixtures/investments
 python manage.py loaddata fixtures/apartments
 python manage.py loaddata fixtures/photos
-python manage.py loaddata fixtures/flats
+python manage.py loaddata fixtures/floor_plans
 python manage.py loaddata fixtures/attracts
 python manage.py loaddata fixtures/outdoors
 python manage.py loaddata fixtures/invests
