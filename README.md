@@ -11,6 +11,7 @@ API REST to manage and get information about apartments using Python, Django, Dj
 - Migrations
 - Fixtures
 - URLS (and operations like `GET`, `POST`, `PUT`, and `DELETE`)
+- Enabled CORS
 
 ## Endpoints
 
@@ -97,7 +98,7 @@ python manage.py loaddata fixtures/outdoor_spaces
 python manage.py loaddata fixtures/investments
 python manage.py loaddata fixtures/apartments
 python manage.py loaddata fixtures/photos
-python manage.py loaddata fixtures/flats
+python manage.py loaddata fixtures/floor_plans
 python manage.py loaddata fixtures/attracts
 python manage.py loaddata fixtures/outdoors
 python manage.py loaddata fixtures/invests
@@ -140,6 +141,8 @@ How many dynos do you use for your API?
 - `dj_database_url`: 0.5.0
 - `whitenoise`: 5.3.0
 - `colorama`: 0.4.4
+- `django-cors-headers`: 3.8.0
+- `django-filter`: 2.4.0
 
   
 ## Screenshots
