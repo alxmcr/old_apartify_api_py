@@ -1,8 +1,14 @@
+from django.http import HttpResponse
+import json
+from rest_framework.views import APIView
 from api.serializers import ApartmentSerializer, AttractSerializer, CityHallSerializer, CitySerializer, CountrySerializer, FeatureSerializer, FloorPlanSerializer, InvestSerializer, InvestmentSerializer, NeighborhoodSerializer, OutdoorSerializer, OutdoorSpaceSerializer, PhotoSerializer, StateSerializer
 from rest_framework import generics
 from django_filters.rest_framework import DjangoFilterBackend
 from api.models import Apartment, Attract, City, CityHall, Country, Feature, FloorPlan, Invest, Investment, Neighborhood, Outdoor, OutdoorSpace, Photo, State
 
+def index(request):
+    welcome_message = {'message': 'Welcome to Apartify API v2!'}
+    return HttpResponse(json.dumps(welcome_message, indent=4, sort_keys=True), content_type="application/json")
 
 class CountryList(generics.ListCreateAPIView):
     queryset = Country.objects.all()
