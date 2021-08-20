@@ -12,6 +12,7 @@ API REST to manage and get information about apartments using Python, Django, Dj
 - Fixtures
 - URLS (and operations like `GET`, `POST`, `PUT`, and `DELETE`)
 - Enabled CORS
+- Django Admin filters
 
 ## Endpoints
 
