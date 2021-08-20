@@ -34,8 +34,8 @@ API REST to manage and get information about apartments using Python, Django, Dj
 - `/apartments/:pk`
 - `/photos`
 - `/photos/:pk`
-- `/flats`
-- `/flats/:pk`
+- `/floor_plans`
+- `/floor_plans/:pk`
 - `/attracts`
 - `/outdoors`
 - `/invests`
