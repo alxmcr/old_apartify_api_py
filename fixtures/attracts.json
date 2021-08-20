@@ -130,5 +130,533 @@
             "att_is_visible": true,
             "att_is_card": false
         }
+    },
+    {
+        "model": "api.attract",
+        "pk": 13,
+        "fields": {
+            "ap_apartment": 3,
+            "fe_feature": 1,
+            "att_value": "93 m²",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 14,
+        "fields": {
+            "ap_apartment": 3,
+            "fe_feature": 2,
+            "att_value": "2",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 15,
+        "fields": {
+            "ap_apartment": 3,
+            "fe_feature": 3,
+            "att_value": "1",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 16,
+        "fields": {
+            "ap_apartment": 3,
+            "fe_feature": 4,
+            "att_value": "2",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 17,
+        "fields": {
+            "ap_apartment": 3,
+            "fe_feature": 5,
+            "att_value": "Departamento",
+            "att_is_visible": true,
+            "att_is_card": false
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 18,
+        "fields": {
+            "ap_apartment": 3,
+            "fe_feature": 6,
+            "att_value": "2018",
+            "att_is_visible": true,
+            "att_is_card": false
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 19,
+        "fields": {
+            "ap_apartment": 4,
+            "fe_feature": 1,
+            "att_value": "93 m²",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 20,
+        "fields": {
+            "ap_apartment": 4,
+            "fe_feature": 2,
+            "att_value": "2",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 21,
+        "fields": {
+            "ap_apartment": 4,
+            "fe_feature": 3,
+            "att_value": "1",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 22,
+        "fields": {
+            "ap_apartment": 4,
+            "fe_feature": 4,
+            "att_value": "2",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 23,
+        "fields": {
+            "ap_apartment": 4,
+            "fe_feature": 5,
+            "att_value": "Departamento",
+            "att_is_visible": true,
+            "att_is_card": false
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 24,
+        "fields": {
+            "ap_apartment": 4,
+            "fe_feature": 6,
+            "att_value": "2018",
+            "att_is_visible": true,
+            "att_is_card": false
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 25,
+        "fields": {
+            "ap_apartment": 5,
+            "fe_feature": 1,
+            "att_value": "93 m²",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 26,
+        "fields": {
+            "ap_apartment": 5,
+            "fe_feature": 2,
+            "att_value": "2",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 27,
+        "fields": {
+            "ap_apartment": 5,
+            "fe_feature": 3,
+            "att_value": "1",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 28,
+        "fields": {
+            "ap_apartment": 5,
+            "fe_feature": 4,
+            "att_value": "2",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 29,
+        "fields": {
+            "ap_apartment": 5,
+            "fe_feature": 5,
+            "att_value": "Departamento",
+            "att_is_visible": true,
+            "att_is_card": false
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 30,
+        "fields": {
+            "ap_apartment": 5,
+            "fe_feature": 6,
+            "att_value": "2018",
+            "att_is_visible": true,
+            "att_is_card": false
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 31,
+        "fields": {
+            "ap_apartment": 6,
+            "fe_feature": 1,
+            "att_value": "93 m²",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 32,
+        "fields": {
+            "ap_apartment": 6,
+            "fe_feature": 2,
+            "att_value": "2",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 33,
+        "fields": {
+            "ap_apartment": 6,
+            "fe_feature": 3,
+            "att_value": "1",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 34,
+        "fields": {
+            "ap_apartment": 6,
+            "fe_feature": 4,
+            "att_value": "2",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 35,
+        "fields": {
+            "ap_apartment": 6,
+            "fe_feature": 5,
+            "att_value": "Departamento",
+            "att_is_visible": true,
+            "att_is_card": false
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 36,
+        "fields": {
+            "ap_apartment": 6,
+            "fe_feature": 6,
+            "att_value": "2018",
+            "att_is_visible": true,
+            "att_is_card": false
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 37,
+        "fields": {
+            "ap_apartment": 7,
+            "fe_feature": 1,
+            "att_value": "93 m²",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 38,
+        "fields": {
+            "ap_apartment": 7,
+            "fe_feature": 2,
+            "att_value": "2",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 39,
+        "fields": {
+            "ap_apartment": 7,
+            "fe_feature": 3,
+            "att_value": "1",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 40,
+        "fields": {
+            "ap_apartment": 7,
+            "fe_feature": 4,
+            "att_value": "2",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 41,
+        "fields": {
+            "ap_apartment": 7,
+            "fe_feature": 5,
+            "att_value": "Departamento",
+            "att_is_visible": true,
+            "att_is_card": false
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 42,
+        "fields": {
+            "ap_apartment": 7,
+            "fe_feature": 6,
+            "att_value": "2018",
+            "att_is_visible": true,
+            "att_is_card": false
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 43,
+        "fields": {
+            "ap_apartment": 8,
+            "fe_feature": 1,
+            "att_value": "93 m²",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 44,
+        "fields": {
+            "ap_apartment": 8,
+            "fe_feature": 2,
+            "att_value": "2",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 45,
+        "fields": {
+            "ap_apartment": 8,
+            "fe_feature": 3,
+            "att_value": "1",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 46,
+        "fields": {
+            "ap_apartment": 8,
+            "fe_feature": 4,
+            "att_value": "2",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 47,
+        "fields": {
+            "ap_apartment": 8,
+            "fe_feature": 5,
+            "att_value": "Departamento",
+            "att_is_visible": true,
+            "att_is_card": false
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 48,
+        "fields": {
+            "ap_apartment": 8,
+            "fe_feature": 6,
+            "att_value": "2018",
+            "att_is_visible": true,
+            "att_is_card": false
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 49,
+        "fields": {
+            "ap_apartment": 9,
+            "fe_feature": 1,
+            "att_value": "93 m²",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 50,
+        "fields": {
+            "ap_apartment": 9,
+            "fe_feature": 2,
+            "att_value": "2",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 51,
+        "fields": {
+            "ap_apartment": 9,
+            "fe_feature": 3,
+            "att_value": "1",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 52,
+        "fields": {
+            "ap_apartment": 9,
+            "fe_feature": 4,
+            "att_value": "2",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 53,
+        "fields": {
+            "ap_apartment": 9,
+            "fe_feature": 5,
+            "att_value": "Departamento",
+            "att_is_visible": true,
+            "att_is_card": false
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 54,
+        "fields": {
+            "ap_apartment": 9,
+            "fe_feature": 6,
+            "att_value": "2018",
+            "att_is_visible": true,
+            "att_is_card": false
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 55,
+        "fields": {
+            "ap_apartment": 10,
+            "fe_feature": 1,
+            "att_value": "93 m²",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 56,
+        "fields": {
+            "ap_apartment": 10,
+            "fe_feature": 2,
+            "att_value": "2",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 57,
+        "fields": {
+            "ap_apartment": 10,
+            "fe_feature": 3,
+            "att_value": "1",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 58,
+        "fields": {
+            "ap_apartment": 10,
+            "fe_feature": 4,
+            "att_value": "2",
+            "att_is_visible": true,
+            "att_is_card": true
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 59,
+        "fields": {
+            "ap_apartment": 10,
+            "fe_feature": 5,
+            "att_value": "Departamento",
+            "att_is_visible": true,
+            "att_is_card": false
+        }
+    },
+    {
+        "model": "api.attract",
+        "pk": 60,
+        "fields": {
+            "ap_apartment": 10,
+            "fe_feature": 6,
+            "att_value": "2018",
+            "att_is_visible": true,
+            "att_is_card": false
+        }
     }
 ]
