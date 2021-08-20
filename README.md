@@ -14,33 +14,33 @@ API REST to manage and get information about apartments using Python, Django, Dj
 - Enabled CORS
 - Django Admin filters
 
-## Endpoints
+## Endpoints `/v2`
 
-- `/countries`
-- `/countries/:pk`
-- `/states`
-- `/states/:pk`
-- `/cities`
-- `/cities/:pk`
-- `/cities_hall`
-- `/cities_hall/:pk`
-- `/neighborhoods`
-- `/neighborhoods/:pk`
-- `/features`
-- `/features/:pk`
-- `/outdoor_spaces`
-- `/outdoor_spaces/:pk`
-- `/investments`
-- `/investments/:pk`
-- `/apartments`
-- `/apartments/:pk`
-- `/photos`
-- `/photos/:pk`
-- `/floor_plans`
-- `/floor_plans/:pk`
-- `/attracts`
-- `/outdoors`
-- `/invests`
+- `/v2/countries`
+- `/v2/countries/:pk`
+- `/v2/states`
+- `/v2/states/:pk`
+- `/v2/cities`
+- `/v2/cities/:pk`
+- `/v2/cities_hall`
+- `/v2/cities_hall/:pk`
+- `/v2/neighborhoods`
+- `/v2/neighborhoods/:pk`
+- `/v2/features`
+- `/v2/features/:pk`
+- `/v2/outdoor_spaces`
+- `/v2/outdoor_spaces/:pk`
+- `/v2/investments`
+- `/v2/investments/:pk`
+- `/v2/apartments`
+- `/v2/apartments/:pk`
+- `/v2/photos`
+- `/v2/photos/:pk`
+- `/v2/floor_plans`
+- `/v2/floor_plans/:pk`
+- `/v2/attracts`
+- `/v2/outdoors`
+- `/v2/invests`
   
 ## Lessons Learned
 
