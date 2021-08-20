@@ -10,7 +10,7 @@ API REST to manage and get information about apartments using Python, Django, Dj
 - Models
 - Migrations
 - Fixtures
-- URLS (or EndPoints)
+- URLS (and operations like `GET`, `POST`, `PUT`, and `DELETE`)
 
 ## Endpoints
 
