@@ -3,7 +3,7 @@
         "model": "api.FloorPlan",
         "pk": 1,
         "fields": {
-            "fp_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627781139/Portfolio/appartify-assets/images/building-plan_kuavep.jpg",
+            "fp_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1629394938/Portfolio/appartify-assets/flats/apart-001-flat-001_n84jtc.jpg",
             "fp_alt": "Floor Plan - Aparment #1",
             "ap_apartment": 1
         }
@@ -12,8 +12,8 @@
         "model": "api.FloorPlan",
         "pk": 2,
         "fields": {
-            "fp_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627781139/Portfolio/appartify-assets/images/building-plan_kuavep.jpg",
-            "fp_alt": "Floor Plan - Aparment #1",
+            "fp_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1629407578/Portfolio/appartify-assets/flats/apart-002-flat-001_lertbl.jpg",
+            "fp_alt": "Floor Plan - Aparment #2",
             "ap_apartment": 2
         }
     },
@@ -21,8 +21,8 @@
         "model": "api.FloorPlan",
         "pk": 3,
         "fields": {
-            "fp_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627781139/Portfolio/appartify-assets/images/building-plan_kuavep.jpg",
-            "fp_alt": "Floor Plan - Aparment #1",
+            "fp_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1629407568/Portfolio/appartify-assets/flats/apart-003-flat-001_raf43r.jpg",
+            "fp_alt": "Floor Plan - Aparment #3",
             "ap_apartment": 3
         }
     },
@@ -30,9 +30,63 @@
         "model": "api.FloorPlan",
         "pk": 4,
         "fields": {
-            "fp_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1627781139/Portfolio/appartify-assets/images/building-plan_kuavep.jpg",
-            "fp_alt": "Floor Plan - Aparment #1",
+            "fp_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1629407896/Portfolio/appartify-assets/flats/apart-004-flat-001_gazgwv.jpg",
+            "fp_alt": "Floor Plan - Aparment #4",
             "ap_apartment": 4
+        }
+    },
+    {
+        "model": "api.FloorPlan",
+        "pk": 5,
+        "fields": {
+            "fp_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1629407896/Portfolio/appartify-assets/flats/apart-005-flat-001_hqieqn.jpg",
+            "fp_alt": "Floor Plan - Aparment #5",
+            "ap_apartment": 5
+        }
+    },
+    {
+        "model": "api.FloorPlan",
+        "pk": 6,
+        "fields": {
+            "fp_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1629407896/Portfolio/appartify-assets/flats/apart-006-flat-001_xttooe.jpg",
+            "fp_alt": "Floor Plan - Aparment #6",
+            "ap_apartment": 6
+        }
+    },
+    {
+        "model": "api.FloorPlan",
+        "pk": 7,
+        "fields": {
+            "fp_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1629407918/Portfolio/appartify-assets/flats/apart-007-flat-001_c9stgy.jpg",
+            "fp_alt": "Floor Plan - Aparment #7",
+            "ap_apartment": 7
+        }
+    },
+    {
+        "model": "api.FloorPlan",
+        "pk": 8,
+        "fields": {
+            "fp_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1629407918/Portfolio/appartify-assets/flats/apart-008-flat-001_t2zcxt.jpg",
+            "fp_alt": "Floor Plan - Aparment #8",
+            "ap_apartment": 8
+        }
+    },
+    {
+        "model": "api.FloorPlan",
+        "pk": 9,
+        "fields": {
+            "fp_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1629407918/Portfolio/appartify-assets/flats/apart-009-flat-001_trb3ns.jpg",
+            "fp_alt": "Floor Plan - Aparment #9",
+            "ap_apartment": 9
+        }
+    },
+    {
+        "model": "api.FloorPlan",
+        "pk": 10,
+        "fields": {
+            "fp_url": "https://res.cloudinary.com/images-alex-projects/image/upload/v1629407918/Portfolio/appartify-assets/flats/apart-010-flat-001_swbi1n.jpg",
+            "fp_alt": "Floor Plan - Aparment #10",
+            "ap_apartment": 10
         }
     }
 ]
