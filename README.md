@@ -70,7 +70,9 @@ Install Python packages
 Make & Run Migrations
 
 ```bash
+# (optional) If you modify the migration
 python manage.py makemigrations
+# create tables & relationships
 python manage.py migrate
 ```
 
