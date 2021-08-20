@@ -156,9 +156,9 @@ How many dynos do you use for your API?
 
 ![Django admin](https://res.cloudinary.com/images-alex-projects/image/upload/v1628912993/Portfolio/appartify-assets/backend-api/django-admin-apartify_tulaqa.png)
 
-![Admin cities](https://res.cloudinary.com/images-alex-projects/image/upload/v1628913261/Portfolio/appartify-assets/backend-api/apartify-endpoint-cities-admin_l2hjjv.png)
+![Admin Apartments](https://res.cloudinary.com/images-alex-projects/image/upload/v1629502178/Portfolio/appartify-assets/backend-api/django-admin-apartments_infu7t.png)
 
-![Endpoint cities](https://res.cloudinary.com/images-alex-projects/image/upload/v1628913151/Portfolio/appartify-assets/backend-api/apartify-endpoint-cities_zivy3m.png)
+![Endpoint Apartments](https://res.cloudinary.com/images-alex-projects/image/upload/v1629502177/Portfolio/appartify-assets/backend-api/endpoint-apartments_xt6ham.png)
 
 
   
@@ -174,6 +174,6 @@ How many dynos do you use for your API?
   
 ## Feedback
 
-If you have any feedback, please reach out to us at amcocarojas@gmail.com.
+If you have any feedback, please reach out to me at amcocarojas@gmail.com.
 
   
