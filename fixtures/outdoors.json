@@ -5,7 +5,7 @@
         "fields": {
             "ap_apartment": 1,
             "ou_outdoor_space": 1,
-            "out_value": "3",
+            "out_value": "8",
             "out_is_visible": true,
             "out_is_card": true
         }
@@ -137,7 +137,7 @@
         "fields": {
             "ap_apartment": 3,
             "ou_outdoor_space": 1,
-            "out_value": "3",
+            "out_value": "5",
             "out_is_visible": true,
             "out_is_card": true
         }
@@ -203,7 +203,7 @@
         "fields": {
             "ap_apartment": 4,
             "ou_outdoor_space": 1,
-            "out_value": "3",
+            "out_value": "7",
             "out_is_visible": true,
             "out_is_card": true
         }
@@ -269,7 +269,7 @@
         "fields": {
             "ap_apartment": 5,
             "ou_outdoor_space": 1,
-            "out_value": "3",
+            "out_value": "6",
             "out_is_visible": true,
             "out_is_card": true
         }
@@ -335,7 +335,7 @@
         "fields": {
             "ap_apartment": 6,
             "ou_outdoor_space": 1,
-            "out_value": "3",
+            "out_value": "4",
             "out_is_visible": true,
             "out_is_card": true
         }
@@ -401,7 +401,7 @@
         "fields": {
             "ap_apartment": 7,
             "ou_outdoor_space": 1,
-            "out_value": "3",
+            "out_value": "6",
             "out_is_visible": true,
             "out_is_card": true
         }
@@ -467,7 +467,7 @@
         "fields": {
             "ap_apartment": 8,
             "ou_outdoor_space": 1,
-            "out_value": "3",
+            "out_value": "5",
             "out_is_visible": true,
             "out_is_card": true
         }
@@ -533,7 +533,7 @@
         "fields": {
             "ap_apartment": 9,
             "ou_outdoor_space": 1,
-            "out_value": "3",
+            "out_value": "4",
             "out_is_visible": true,
             "out_is_card": true
         }
@@ -599,7 +599,7 @@
         "fields": {
             "ap_apartment": 10,
             "ou_outdoor_space": 1,
-            "out_value": "3",
+            "out_value": "5",
             "out_is_visible": true,
             "out_is_card": true
         }
