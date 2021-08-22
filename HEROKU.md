@@ -13,11 +13,11 @@ heroku create
 **Project name**: `apartify-api-py`
 
 ```bash
-heroku config:set ALLOWED_HOSTS=apartify-api-py.herokuapp.com
-heroku config:set CORS_ALLOWED_ORIGINS=the-apartify-app.netlify.app
-heroku config:set DJANGO_SETTINGS_MODULE=apartify_api_py.settings.heroku
-heroku config:set SECRET_KEY="your-secret-key"
-heroku config:set WEB_CONCURRENCY=1
+heroku config:set ALLOWED_HOSTS=apartify-api-py.herokuapp.com -a apartify-api-py
+heroku config:set CORS_ALLOWED_ORIGINS=apartify-app.netlify.app -a apartify-api-py
+heroku config:set DJANGO_SETTINGS_MODULE=apartify_api_py.settings.heroku -a apartify-api-py
+heroku config:set SECRET_KEY="your-secret-key" -a apartify-api-py
+heroku config:set WEB_CONCURRENCY=1 -a apartify-api-py
 ```
 
 ## Database
