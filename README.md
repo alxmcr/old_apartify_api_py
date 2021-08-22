@@ -164,7 +164,7 @@ How many dynos do you use for your API?
   
 ## Demo
 
-[https://apartify-api-py.herokuapp.com/cities](https://apartify-api-py.herokuapp.com/cities)
+[https://apartify-api-py.herokuapp.com/](https://apartify-api-py.herokuapp.com/)
 
   
 ## Authors
