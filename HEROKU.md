@@ -13,6 +13,7 @@ heroku create
 **Project name**: `apartify-api-py`
 
 ```bash
+# ALLOWED_HOSTS: Without prefix http:// or https://
 heroku config:set ALLOWED_HOSTS=apartify-api-py.herokuapp.com -a apartify-api-py
 heroku config:set CORS_ALLOWED_ORIGINS=apartify-app.netlify.app -a apartify-api-py
 heroku config:set DJANGO_SETTINGS_MODULE=apartify_api_py.settings.heroku -a apartify-api-py

@@ -139,7 +139,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:8080",
     "http://localhost:3000",
     "http://127.0.0.1:9000",
-    "https://apartify-app.netlify.app/",
+    "https://apartify-app.netlify.app",
 ]
 
 CORS_ALLOW_HEADERS = [
@@ -162,3 +162,5 @@ CORS_ALLOW_METHODS = [
     "POST",
     "PUT",
 ]
+
+CORS_ALLOW_ALL_ORIGINS = True
