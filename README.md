@@ -61,6 +61,24 @@ Go to the project directory
   cd apartify_api_py
 ```
 
+Verify that PostgreSQL is installed
+
+a. Official repository
+
+```bash
+postgres --version
+
+# postgres (PostgreSQL) 14.10 (Ubuntu 14.10-0ubuntu0.22.04.1)
+```
+
+b. When you have installed a not official version of Postgress
+
+```bash
+sudo /usr/lib/postgresql/14/bin/postgres --version
+
+# postgres (PostgreSQL) 14.10 (Ubuntu 14.10-0ubuntu0.22.04.1)
+```
+
 Install Python packages
 
 ```bash
