@@ -46,22 +46,7 @@ API REST to manage and get information about apartments using Python, Django, Dj
 
 I learned and practice more about Python, Django, Django Rest Framework, PostgreSQL, and Heroku.
 
-  
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/alxmcr/apartify_api_py
-```
-
-Go to the project directory
-
-```bash
-  cd apartify_api_py
-```
-
-Verify that PostgreSQL is installed
+## Verify PostgreSQL on your computer
 
 a. Official repository
 
@@ -78,6 +63,25 @@ sudo /usr/lib/postgresql/14/bin/postgres --version
 
 # postgres (PostgreSQL) 14.10 (Ubuntu 14.10-0ubuntu0.22.04.1)
 ```
+
+ 
+## Run Locally
+
+- Clone the project
+
+```bash
+  git clone https://github.com/alxmcr/apartify_api_py
+```
+
+- Go to the project directory
+
+```bash
+  cd apartify_api_py
+```
+
+- Review package versions on `requirements.txt`
+
+Search on https://pypi.org/, all package names and verify their versions.
 
 Install Python packages
 
