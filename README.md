@@ -79,11 +79,29 @@ sudo /usr/lib/postgresql/14/bin/postgres --version
   cd apartify_api_py
 ```
 
+- Create a Python environment
+
+```bash
+python3 -m venv <name_environment>
+
+# Example
+python3 -m venv env_partify_dev
+```
+
+- Activation of the environment
+
+```bash
+source <name_environment>/bin/activate
+
+# Example
+source env_partify_dev/bin/activate
+```
+
 - Review package versions on `requirements.txt`
 
 Search on https://pypi.org/, all package names and verify their versions.
 
-Install Python packages
+- Install Python packages
 
 ```bash
   pip install -r requirements.txt
@@ -91,7 +109,7 @@ Install Python packages
 
 If you have a problems with installation, you should run this command `sudo apt-get install --reinstall libpq-dev`.
 
-Make & Run Migrations
+- Make & Run Migrations
 
 ```bash
 # (optional) If you modify the migration
