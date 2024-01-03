@@ -109,6 +109,22 @@ Search on https://pypi.org/, all package names and verify their versions.
 
 If you have a problems with installation, you should run this command `sudo apt-get install --reinstall libpq-dev`.
 
+- Create database
+
+```bash
+# Connect to the Postgres prompt
+sudo -u postgres psql
+
+# Change / set the password for user `postgres`
+\password postgres
+```
+
+- Run script
+
+```sql
+CREATE DATABASE apartify_api_py WITH ENCODING='UTF8';
+```
+
 - Make & Run Migrations
 
 ```bash
