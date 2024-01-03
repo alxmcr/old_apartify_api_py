@@ -157,6 +157,9 @@ Start the server
 
 ```bash
 python manage.py runserver
+
+# Django version 5.0.1, using settings 'apartify_api_py.settings.dev'
+# Starting development server at http://127.0.0.1:8000/
 ```
 
 Create an administrator (If you want to use Djando admin site `/admin`)
