@@ -1,5 +1,4 @@
 from django.db import models
-from django.db.models.query_utils import InvalidQuery
 
 class Country(models.Model):
     co_country = models.BigAutoField(primary_key=True)

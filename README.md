@@ -46,22 +46,7 @@ API REST to manage and get information about apartments using Python, Django, Dj
 
 I learned and practice more about Python, Django, Django Rest Framework, PostgreSQL, and Heroku.
 
-  
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/alxmcr/apartify_api_py
-```
-
-Go to the project directory
-
-```bash
-  cd apartify_api_py
-```
-
-Verify that PostgreSQL is installed
+## Verify PostgreSQL on your computer
 
 a. Official repository
 
@@ -79,13 +64,68 @@ sudo /usr/lib/postgresql/14/bin/postgres --version
 # postgres (PostgreSQL) 14.10 (Ubuntu 14.10-0ubuntu0.22.04.1)
 ```
 
-Install Python packages
+ 
+## Run Locally
+
+- Clone the project
+
+```bash
+  git clone https://github.com/alxmcr/apartify_api_py
+```
+
+- Go to the project directory
+
+```bash
+  cd apartify_api_py
+```
+
+- Create a Python environment
+
+```bash
+python3 -m venv <name_environment>
+
+# Example
+python3 -m venv env_partify_dev
+```
+
+- Activation of the environment
+
+```bash
+source <name_environment>/bin/activate
+
+# Example
+source env_partify_dev/bin/activate
+```
+
+- Review package versions on `requirements.txt`
+
+Search on https://pypi.org/, all package names and verify their versions.
+
+- Install Python packages
 
 ```bash
   pip install -r requirements.txt
 ```
 
-Make & Run Migrations
+If you have a problems with installation, you should run this command `sudo apt-get install --reinstall libpq-dev`.
+
+- Create database
+
+```bash
+# Connect to the Postgres prompt
+sudo -u postgres psql
+
+# Change / set the password for user `postgres`
+\password postgres
+```
+
+- Run script
+
+```sql
+CREATE DATABASE apartify_api_py WITH ENCODING='UTF8';
+```
+
+- Make & Run Migrations
 
 ```bash
 # (optional) If you modify the migration
