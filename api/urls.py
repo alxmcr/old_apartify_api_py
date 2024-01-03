@@ -1,9 +1,9 @@
-from django.conf.urls import url
+from django.urls import re_path
 from django.urls import path
 from . import views
 
 urlpatterns = [
-    url(r'^$', views.index, name='index'),
+    re_path(r'^$', views.index, name='index'),
     path("v2/countries", views.CountryList.as_view()),
     path("v2/countries/<int:pk>", views.CountryDetails.as_view()),
     path("v2/states", views.StateList.as_view()),
