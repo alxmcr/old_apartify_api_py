@@ -89,6 +89,8 @@ Install Python packages
   pip install -r requirements.txt
 ```
 
+If you have a problems with installation, you should run this command `sudo apt-get install --reinstall libpq-dev`.
+
 Make & Run Migrations
 
 ```bash
