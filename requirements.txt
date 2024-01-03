@@ -3,7 +3,7 @@ psycopg2==2.9.1
 django==3.2.6
 djangorestframework==3.12.4
 django-heroku==0.3.1
-django-environ-2==2.1.0
+django-environ==0.11.2
 dj_database_url==0.5.0
 whitenoise==5.3.0
 colorama==0.4.4
